@@ -18,12 +18,7 @@
 		font: inherit;
 		vertical-align: baseline;
               	}
- iframe, video {
-        min-width: 100%; 
-        width: 100px;
-        *width: 100%; 
-         overflow = auto;
-    }
+ 
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
