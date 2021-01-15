@@ -32,21 +32,22 @@
 	margin: 0;
 	padding: 0;
 }
+
 .footermenu ul {
-	background: gray;
+        background: gray;
 	list-style: none;
 	width: 100%;
 }
 .footermenu li {
 	float: left;
-	position: relative;
-	width:32%;
+        position: relative;
+        width:32%;	
 }
 .footermenu a {	
 	display: block;
-	font: normal 13px/20px sans-serif;
+	font: normal 40px/50px sans-serif;
 	padding: 0px 0px;
-	text-align: left;
+	text-align: center;
 	text-decoration: none;
 	-webkit-transition: all .25s ease;
 	-moz-transition: all .25s ease;
@@ -54,7 +55,6 @@
 	-o-transition: all .25s ease;
 	transition: all .25s ease;
 }
-
 
 	ol, ul {
 		list-style: none;
@@ -2511,7 +2511,7 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #4acaa8;
+		background:#4acaa8;
 		color: #d1f1e9;
 		height: 100%;
 		overflow-y: auto;
