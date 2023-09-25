@@ -1,101 +1,688 @@
-<!DOCTYPE HTML>
-<!--
-	Read Only by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-                <head>
-		<title>Prabhat K Mishra</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />		
-		<link rel="stylesheet" href="assets/css/main.css" />
-                <link rel="stylesheet" href="assets/css/academicons.css"/>		
-                </head>
- <body>
+<!DOCTYPE html>
+<html lang="en">
 
-		<!-- Header -->
-			<section id="header">
-				<header>
-					<span class="image avatar"><img src="prabhat.jpg" alt="" /></span>
-					<h1 id="logo"><a href="#">Prabhat K Mishra</a></h1>
-					<p>Post-Doctoral Associate<br />
-					Massachusetts Institute of Technology, USA </p>
-					<p id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">pkmishra at mit.edu </span></p>
-				</header>
-			
-                         <nav id="nav">
-                                        <ul>
-					<li><a href="index.html" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Home</span></a></li>
-					<li><a href="publications.html" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Publications</span></a></li>
-					<li><a href="biography.html" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Biography</span></a></li>
-					</ul>
-                         </nav>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-				<footer>
-					<ul class="icons">
-					<li><a href="https://scholar.google.co.in/citations?user=rXhwtr0AAAAJ&hl=en" class="label"><i class="ai ai-google-scholar ai-3x"></i></a></li>
-                                        <li><a href="https://www.researchgate.net/profile/Prabhat_K_Mishra" class="label"><i class="ai ai-researchgate ai-3x"></i></a></li>
-                                        <li><a href="http://orcid.org/0000-0002-8507-8194" class="label"><i class="ai ai-orcid ai-3x"></i></a></li>
-					</ul>
-				</footer>
-			</section>
+  <title>PSALM Lab</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
-			<!-- Main -->
-			<div id="main">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/academicons.css"/>
 
-		<!-- One -->
-			<section id="one">
-			<div class="container">
-				 <header class="major">
-				 <h2>About me</h2>
-				 </header>
-                                 <p>I am an Assistant Professor at Indian Institute of Technology Kharagpyr (<a href = "https://www.iitkgp.ac.in">IITKgp</a>), India. Before joining IITKgp, I was a Posdoctoral Associate at Massachusetts Institute of Technology (<a href = "https://web.mit.edu">MIT</a>), USA. My research work is focused on autonomous systems and machine learning.</p> 
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 
-                                 <p> I like analysis, probability and optimization. My doctoral work at <a href="http://www.sc.iitb.ac.in">IIT Bombay</a>, India, presents a provably stabilizing framework for stochastic MPC in the presence of unreliable channels. 
-				 
-                                 <p> I am interested in understanding the theoretical foundation of machine learning, and its applications for safety critical systems and cyber physical system.</p>
-                                 
+  <!-- =======================================================
+  * Template Name: BizPage
+  * Updated: Mar 10 2023 with Bootstrap v5.2.3
+  * Template URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
 
-                        
-                                                              
-                               <header class="major">
-		               <h2>News</h2>
-			       </header> 
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container-fluid">
+
+      <div class="row justify-content-center align-items-center">
+        <div class="col-xl-11 d-flex align-items-center justify-content-between">
+          <h1 class="logo"><a href="index.html">PSALM Lab</a></h1>
+          <!-- Uncomment below if you prefer to use an image logo 
+          <a href="index.html" class="logo"><img src="assets/img/prabhat.jpg" alt="" class="img-fluid"></a> -->
+
+          <nav id="navbar" class="navbar">
+            <ul>
+              <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+
+              <li class="dropdown"><a href="#people"><span>People</span> <i class="bi bi-chevron-down"></i></a>
+               <ul>
+                  <li><a href="#mentors">Mentors</a></li>
+                  <li><a href="#collaborators">Collaborators</a></li>
+                  <li class="dropdown"><a href="#about"><span>Prabhat K. Mishra</span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="#education_experience">Education & Experience</a></li>
+                      <li><a href="#teaching">Teaching</a></li>
+                      <li><a href="#research">Research</a></li>
+                      <li><a href="#awards">Awards</a></li>
+                      <li><a href="#outreach">Outreach</a></li>
+                     </ul>
+                  </li>                                                  
+                </ul>
+              </li>
+
+              <li class="dropdown"><a href="#research"><span>Research</span> <i class="bi bi-chevron-down"></i></a>
+               <ul>
+                  <!-- <li><a href="#">something</a></li> -->
+                  <li class="dropdown"><a href="#theory"><span>Theory</span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="#stochastic_mpc">Stochastic MPC</a></li>
+                      <li><a href="#deep_mpc">Deep MPC</a></li>
+                      <li><a href="#constrained_estimator">Constrained Estimator</a></li>
+                     </ul>
+                  </li>           
+                  <li class="dropdown"><a href="#applications"><span>Applications</span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="#cps">Cyber Physical Systems</a></li>
+                      <li><a href="#scs">Safety Critical Systems</a></li>
+                     </ul>
+                  </li>                                   
+                </ul>
+              </li>
+
+              <li><a class="nav-link scrollto " href="#publications">Publications</a></li>
+              
+              <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav><!-- .navbar -->
+        </div>
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
+        <ol id="hero-carousel-indicators" class="carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <div class="carousel-item active" style="background-image: url(assets/img/hero-carousel/Banner.png)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">Predictive Stochastic Adaptive Learning Machines (PSALM) Lab</h2>
+                <p class="animate__animated animate__fadeInUp">Autonomous Navigation</p>
+                <a href="#people" class="btn-get-started scrollto animate__animated animate__fadeInUp">People</a>
+                <a href="#research" class="btn-get-started scrollto animate__animated animate__fadeInUp">Research</a>
+                <a href="#publications" class="btn-get-started scrollto animate__animated animate__fadeInUp">Publications</a>
+                <a href="#contact" class="btn-get-started scrollto animate__animated animate__fadeInUp">Contact</a>
+              </div>
+            </div>
+          </div>
+         
+          <div class="carousel-item active" style="background-image: url(assets/img/Projects/mhe.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">Predictive Stochastic Adaptive Learning Machines (PSALM) Lab</h2>
+                <p class="animate__animated animate__fadeInUp">Constrained Moving Horizon Estimator</p>
+                <a href="#people" class="btn-get-started scrollto animate__animated animate__fadeInUp">People</a>
+                <a href="#research" class="btn-get-started scrollto animate__animated animate__fadeInUp">Research</a>
+                <a href="#publications" class="btn-get-started scrollto animate__animated animate__fadeInUp">Publications</a>
+                <a href="#contact" class="btn-get-started scrollto animate__animated animate__fadeInUp">Contact</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item active" style="background-image: url(assets/img/Projects/NN.PNG)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">Predictive Stochastic Adaptive Learning Machines (PSALM) Lab</h2>
+                <p class="animate__animated animate__fadeInUp">Neural Network architecture in Deep MPC</p>
+                <a href="#people" class="btn-get-started scrollto animate__animated animate__fadeInUp">People</a>
+                <a href="#research" class="btn-get-started scrollto animate__animated animate__fadeInUp">Research</a>
+                <a href="#publications" class="btn-get-started scrollto animate__animated animate__fadeInUp">Publications</a>
+                <a href="#contact" class="btn-get-started scrollto animate__animated animate__fadeInUp">Contact</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item active" style="background-image: url(assets/img/Projects/noise.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">Predictive Stochastic Adaptive Learning Machines (PSALM) Lab</h2>
+                <p class="animate__animated animate__fadeInUp">Noise in Cyber Physical Systems</p>
+                <a href="#people" class="btn-get-started scrollto animate__animated animate__fadeInUp">People</a>
+                <a href="#research" class="btn-get-started scrollto animate__animated animate__fadeInUp">Research</a>
+                <a href="#publications" class="btn-get-started scrollto animate__animated animate__fadeInUp">Publications</a>
+                <a href="#contact" class="btn-get-started scrollto animate__animated animate__fadeInUp">Contact</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="carousel-item active" style="background-image: url(assets/img/Projects/stabilityconstraint.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">Predictive Stochastic Adaptive Learning Machines (PSALM) Lab</h2>
+                <p class="animate__animated animate__fadeInUp">Stability Constraints</p>
+                <a href="#people" class="btn-get-started scrollto animate__animated animate__fadeInUp">People</a>
+                <a href="#research" class="btn-get-started scrollto animate__animated animate__fadeInUp">Research</a>
+                <a href="#publications" class="btn-get-started scrollto animate__animated animate__fadeInUp">Publications</a>
+                <a href="#contact" class="btn-get-started scrollto animate__animated animate__fadeInUp">Contact</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
+      </div>
+    </div>
+  </section><!-- End Hero Section -->
+
+  <main id="main">
+
+       <!-- ======= About Us Section ======= -->
+    <section id="about">
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">        
+          <h3>Prabhat Kumar Mishra</h3>
+        </header>
+          <p>I am an Assistant Professor at Indian Institute of Technology Kharagpur (<a href = "https://www.iitkgp.ac.in">IITKgp</a>), Kharagpur, India, and currently working at the intersection of control and learning. I am trying to develop control algorithms for learning and learning algorithms for control for the challenging applications of autonomous systems to improve the comfort and precision, reduce the human intervention and ensuring safety during the learning phase. </p>
+<p>I  did PhD from Indian Institute of Technology Bombay (<a href = "https://www.iitb.ac.in">IITB</a>), Bombay, India, on Stochastic Model Predictive Control (MPC) for Cyber Physical Systems. During my PhD, I received a Swiss Government Excellence Scholarship to study at Ecole Polytechnique Federale de Lausanne (<a href= "https://www.epfl.ch/en/">EPFL</a>), Switzerland, for one year. I learnt Gaussian Process Regression and implemented stochastic MPC on a quadcopter at EPFL. Before joining IITKgp, I was a Postdoctoral Associate at Massachusetts Institute of Technology (<a href="https://www.mit.edu">MIT</a>), USA, and working on polynomial chaos theory for biomedical applications. Prior to that, I was a Postdoctoral Research Asssociate at University of Illinois Urbana Champaign (<a href = "https://illinois.edu">UIUC</a>), USA, where we developed a couple of deep learning supported MPC algorithms and a constrained estimator. </p>
+
+        
+
+      <section id="clients">
+      <div class="container" data-aos="zoom-in">
+       <section id="education_experience"></section>
+
+        <header class="section-header">
+          <h3>Education & Experience</h3>
+        </header>
+
+        <div class="clients-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/mit.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/uiuc.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/epfl.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/IITB.png" class="img-fluid" alt=""></div>            
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+        </div></section>
+        <h3>News</h3>
+         
+
+          <ul>
+          <li>Sep 2021: Our <a href = "https://arxiv.org/abs/2101.05941">paper</a> is accepted in Automatica.</li>
+          <li>Dec 2020: Our <a href = "https://arxiv.org/abs/2006.04367v1">paper</a> is accepted in Automatica.</li>
+          <li>July 2020: Our <a href = "https://arxiv.org/pdf/2004.02358.pdf">paper</a> is accepted in CDC 2020.</li>
+          <li>April 2020: Our <a href = "https://doi.org/10.1016/j.automatica.2020.109012">paper</a> is accepted in Automatica as a regular paper.</li>
+          <li>April 2019: I joined the group of <a href= "https://www.csl.illinois.edu/directory/profile/girishc">Prof. Girish Chowdhary </a> at <a href = "https://www.csl.illinois.edu">Coordinated Science Laboratory</a>, <a href="https://illinois.edu/">UIUC</a>, as a post-doctoral research asscociate.</li>		               
+          </ul>
+      
+      </div>
+    </section><!-- End About Us Section -->
+
+
+
+
+  
+    <!-- ======= Team Section ======= -->
+    <section id="team">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <section id = "mentors"></section>
+          <h3>Mentors</h3>
+          <!-- <p>I have been lucky to work with the following wonderful people.</p> -->
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-2 col-md-6">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <img src="assets/img/People/Braatz.jpg" class="circular--landscape" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Richard D. Braatz</h4>
+                  <span>MIT, USA</span>
+                  <div class="social"> 
+                    <a href="https://www.linkedin.com/in/richardbraatz"><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6">
+            <div class="member" data-aos="fade-up" data-aos-delay="200">
+              <img src="assets/img/People/Girish_Chowdhary.jpeg" class="circular--landscape" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Girish Chowdhary</h4>
+                  <span>UIUC, USA</span>
+                  <div class="social">                    
+                    <a href="https://www.linkedin.com/in/girishchowdhary"><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+              <img src="assets/img/People/DebasishChatterjee.jpg" class="circular--landscape" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Debasish Chatterjee</h4>
+                  <span>IITB, India</span>
+                  <div class="social">                    
+                    <a href="https://www.sc.iitb.ac.in/~chatterjee/master/homepage"><i class="bi bi-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6">
+            <div class="member" data-aos="fade-up" data-aos-delay="400">
+              <img src="assets/img/People/DanielQuevedo.jpg" class="circular--landscape" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Daniel Quevedo</h4>
+                  <span>QUT, Australia</span>
+                  <div class="social">                    
+                    <a href="https://www.linkedin.com/in/dquevedo"><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6">
+            <div class="member" data-aos="fade-up" data-aos-delay="500">
+              <img src="assets/img/People/Prashant_Mehta.png" class="circular--landscape" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Prashant Mehta</h4>
+                  <span>UIUC, USA</span>
+                  <div class="social">                    
+                    <a href="https://www.linkedin.com/in/mehtapg/"><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6">
+            <div class="member" data-aos="fade-up" data-aos-delay="600">
+              <img src="assets/img/People/ColinJones.jpg" class="circular--landscape" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Colin Jones</h4>
+                  <span>EPFL, Switzerland</span>
+                  <div class="social">                    
+                    <a href="https://www.linkedin.com/in/colin-jones-b04a663"><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        
+        <section id = "collaborators"></section>
+        <div class="section-header">
+          <h3>Collaborators</h3>          
+        </div>
+
+        <div class="row">
+          <div class="col-lg-2 col-md-6">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <img src="assets/img/People/Andres_Baquero.jpeg" class="circular--landscape" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Andres E. Baquero</h4>
+                  <span>EarthSense, USA</span>
+                  <div class="social">                    
+                    <a href="https://www.linkedin.com/in/andres-baquero-49990896"><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+
+          <div class="col-lg-2 col-md-6">
+            <div class="member" data-aos="fade-up" data-aos-delay="400">
+              <img src="assets/img/People/leena.jpg" class="circular--landscape" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Leena Vachhani</h4>
+                  <span>IITB, India</span>
+                  <div class="social">                    
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6">
+            <div class="member" data-aos="fade-up" data-aos-delay="500">
+              <img src="assets/img/People/MateusGasparino.png" class="circular--landscape" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Mateus V. Gasparino</h4>
+                  <span>UIUC, USA</span>
+                  <div class="social">                    
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-2 col-md-6">
+            <div class="member" data-aos="fade-up" data-aos-delay="600">
+              <img src="assets/img/People/mattia-gazzola.png" class="circular--landscape" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Mattia Gazzola</h4>
+                  <span>UIUC, USA</span>
+                  <div class="social">                    
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6">
+            <div class="member" data-aos="fade-up" data-aos-delay="700">
+              <img src="assets/img/People/Sahaj_Saxena.jpg" class="circular--landscape" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Sahaj Saxena</h4>
+                  <span>Thapar Univ, India</span>
+                  <div class="social">                    
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6">
+            <div class="member" data-aos="fade-up" data-aos-delay="800">
+              <img src="assets/img/People/SanketDiwale.png" class="circular--landscape" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Sanket Diwale</h4>
+                  <span>MIT, USA</span>
+                  <div class="social">
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6">
+            <div class="member" data-aos="fade-up" data-aos-delay="900">
+              <img src="assets/img/People/Tixian_Wang.jpg" class="circular--landscape" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Tixian Wang</h4>
+                  <span>UIUC, USA</span>
+                  <div class="social">                    
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6">
+            <div class="member" data-aos="fade-up" data-aos-delay="1000">
+              <img src="assets/img/People/Atreyee_Kundu.jpg" class="circular--landscape" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Atreyee Kundu</h4>
+                  <span>IITKgp, India</span>
+                  <div class="social">                    
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6">
+            <div class="member" data-aos="fade-up" data-aos-delay="1100">
+              <img src="assets/img/People/Rolf_Findeisen.jpg" class="circular--landscape" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Rolf Findeisen</h4>
+                  <span>TUD, Germany</span>
+                  <div class="social">                    
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        
+        </div>
+      </div>
+    </section><!-- End Team Section -->
+
+  <!-- ======= Organizations ======= -->
+    <section id="clients">
+      <div class="container" data-aos="zoom-in">
+       <section id="Organizations"></section>
+
+        
+
+        <header class="section-header">
+          <h3>Organizations</h3>
+        </header>
+
+        <div class="clients-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/Earthsense.png" class="img-fluid" alt=""></div> 
+            <div class="swiper-slide"><img src="assets/img/clients/Paderborn.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/Magdeburg.png" class="img-fluid" alt=""></div>            
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Our Clients Section -->
+
+
+
+      <section id="publications" class="section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h3 class="section-title">Publications</h3>
+        </header>
+
+        
+        
+         <h3>Preprint</h3>
+         <ol>
+         <li><p>Prabhat K. Mishra, Mateus V. Gasparino, Andres E. B. Velsasquez, Girish Chowdhary, "<a href = "https://arxiv.org/abs/2104.07171"> Deep model predictive control with stability guarantees"</a>, under review. </li>
+         </ol>
+        
+         <h3>Journal</h3>
+        
+         <ol>	
+         <li><p>Prabhat K. Mishra, Girish Chowdhary, Prashant G. Mehta, "<a href = "https://arxiv.org/abs/2101.05941"> Minimum variance constrained estimator"</a>, (in press) Automatica. </li>
+         <li><p>Prabhat K. Mishra, Sanket S. Diwale, Colin N. Jones, Debasish Chatterjee, "<a href = "https://arxiv.org/abs/2006.04367"> Reference tracking stochastic model predictive control over unreliable channels and bounded control actions"</a>, Automatica. </li>
+         <li><p>Prabhat K. Mishra, Debasish Chatterjee, Daniel E. Quevedo,"<a href = "https://doi.org/10.1016/j.automatica.2020.109012">Stochastic predictive control under intermittent observations and unreliable actions"</a>, Automatica, Volume 118, 2020.</p>
+         </li>
+         <li><p>Prabhat K. Mishra, Debasish Chatterjee, Daniel E. Quevedo,
+         "<a href="https://doi.org/10.1016/j.automatica.2017.09.013">Sparse and constrained stochastic predictive control for networked systems"</a>, Automatica,Vol. 87, pp. 40-51, 2018.</p>
+         </li>
+         <li><p>Prabhat K. Mishra, Debasish Chatterjee, Daniel E. Quevedo,
+         " <a href="https://doi.org/10.1109/TAC.2017.2765740">Stabilizing stochastic predictive control under Bernoulli dropouts</a>", IEEE Transactions on Automatic Control, Vol. 63, Issue 6, pp. 1579-1590, 2018.</p>
+         </li>
+         <li><p>Prabhat K. Mishra, Debasish Chatterjee, Daniel E. Quevedo,"<a href="https://doi.org/10.1109/LCSYS.2017.2719606">Output feedback stable stochastic predictive control with hard control constraints"</a>, IEEE Control Systems Letters, Volume 1, Issue 2, 2017, p.p. 382 - 387.</p>
+         </li>
+         <li><p>Prabhat K. Mishra, Debasish Chatterjee, and Daniel E. Quevedo,
+         "<a href= "https://ieeexplore.ieee.org/document/7972796/">Resource efficient stochastic predictive control under packet dropouts</a>", IET Control Theory & Applications, Volume 11, Issue 11, 2017, pp. 1666-1673.</p>
+         </li>
+         </ol>
+        
+         <h3>Conference</h3>
+        
+         <ol>
+         <li><p>Mateus V. Gasparino, Prabhat K. Mishra, Girish Chowdhary, "<a href = "">Unmatched uncertainty mitigation through neural network supported model predictive control</a>", accepted IEEE Conference on Decision and Control (CDC) 2023. </li>
  
-                               <ul>
-                               <li>Sep 2021: Our <a href = "https://arxiv.org/abs/2101.05941">paper</a> is accepted in Automatica.</li>
-                               <li>Dec 2020: Our <a href = "https://arxiv.org/abs/2006.04367v1">paper</a> is accepted in Automatica.</li>
-	                       <li>July 2020: Our <a href = "https://arxiv.org/pdf/2004.02358.pdf">paper</a> is accepted in CDC 2020.</li>
-	                       <li>April 2020: Our <a href = "https://doi.org/10.1016/j.automatica.2020.109012">paper</a> is accepted in Automatica as a regular paper.</li>
-	                       <li>April 2019: I joined the group of <a href= "https://www.csl.illinois.edu/directory/profile/girishc">Prof. Girish Chowdhary </a> at <a href = "https://www.csl.illinois.edu">Coordinated Science Laboratory</a>, <a href="https://illinois.edu/">UIUC</a>, as a post-doctoral research asscociate.</li>		               
-                               </ul>								
-                        </div>
-		        </section>
-                      </div>
+         <li><p>Prabhat K. Mishra, Tixian Wang, Mattia Gazzola, Girish Chowdhary, "<a href = "https://arxiv.org/pdf/2004.02358.pdf"> Centralized model predictive control with distributed adaptation"</a>, IEEE Conference on Decision and Control (CDC), 2020. </li>
+         <li><p>Prabhat K. Mishra, Daniel E. Quevedo, Debasish Chatterjee, 
+         " <a href="http://dx.doi.org/10.1016/j.ifacol.2016.10.140">Dropout feedback parametrized policies for stochastic predictive controller</a>" , 
+         IFAC Symposium on Nonlinear Control Systems (NOLCOS), 2016</p>
+         </li>
+         <li><p>Prabhat K. Mishra, Debasish Chatterjee, Daniel E. Quevedo,
+         " <a href="https://ieeexplore.ieee.org/abstract/document/7810631">Stable stochastic predictive controller under unreliable up-link</a>" ,
+         European Control Conference (ECC), 2016.</p>
+         </li>
+         <li><p>Atreyee Kundu, Prabhat K. Mishra, Debasish Chatterjee,
+         " <a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=7402984">Stabilizing discrete time switched systems with inputs</a>" , IEEE conference on Decision and Control (CDC), 2015. </p>
+         </li>
+         <li><p>Daniel E. Quevedo, Prabhat K. Mishra, R. Findeisen, Debasish Chatterjee,
+         " <a href="http://www.sciencedirect.com/science/article/pii/S240589631502546X">A stochastic model predictive controller for systems with unreliable communication</a>" ,
+         IFAC conference on Nonlinear Model Predictive Control (NMPC), 2015. </p>
+         </li>
+         <li><p>Prabhat K. Mishra, Leena Vachhani, Debasish Chatterjee,
+         " <a href="h
+         ttp://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=7330742&amp;tag=1">Event triggered green control for discrete time dynamical systems</a>",
+         European Control Conference (ECC), 2015.</p>
+         </li>
+         </ol>
+        
+        <h3>Workshop</h3>
+        <ol>
+         <li><p>Prabhat K. Mishra, Mateus V. Gasparino, Andres E. B. Velsasquez, Girish Chowdhary, "<a href = """> Deep model predictive control"</a>,CoRL'22: workshop on Learnng to Adapt and Improve in Real Time.</li>
+         </ol> 
+ 
+        <h3>Other writings </h3>
+        
+         <ol>
+         <li><p>Prabhat K. Mishra, Sahaj Saxena, Microwave Tubes Making a Comeback, Electronics for you, November 2011, Vol 43 No. 11 </p>
+         </li>
+         <li><p>Sahaj Saxena, Prabhat K. Mishra, Organic Electronics starts a new era, Electronics For You, September 2010, Vol. 42 No. 9</p>
+         </li>
+         <li><p>Sahaj Saxena, Prabhat K. Mishra, Powering nano devices, Electronics For You, Dec 2009, Vol. 41, No. 12</p>
+         </li>
+         </ol>
+      </div>
+    </section><!-- End Portfolio Section -->
+        <!-- ======= Contact Section ======= -->
+    <section id="contact" class="section-bg">
+      <div class="container" data-aos="fade-up">
 
-		<!-- Footer -->
-			<section id="footer">
-			 <div class="container"> 
-                          <section>
-			   <nav class="footermenu"> 
-                            <ul class="icons">
-                            <li><a href="index.html" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home"></span>Home</a></li>
-                            <li><a href="publications.html" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th"></span>Pub</a></li>
-                            <li><a href="biography.html" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user"></span>Bio</a></li>
-                            </ul>
-                            <ul class="icons">					
-		            <li><a href="https://scholar.google.co.in/citations?user=rXhwtr0AAAAJ&hl=en" class="label"><i class="ai ai-google-scholar ai-3x"></i></a></li>
-                            <li><a href="https://www.researchgate.net/profile/Prabhat_K_Mishra" class="label"><i class="ai ai-researchgate ai-3x"></i></a></li>
-                            <li><a href="http://orcid.org/0000-0002-8507-8194" class="label"><i class="ai ai-orcid ai-3x"></i></a></li>
-                            </ul>					
-                           </nav> 
-                          </section> 
-                         </div>
-                        </section>
-  </div>
- </body>
+        <div class="section-header">
+          <h3>Contact</h3>          
+        </div>
+
+        <div class="row contact-info">
+
+          <div class="col-md-4">
+            <div class="contact-address">
+              <i class="bi bi-geo-alt"></i>
+              <h3>Address</h3>
+              <address>Centre of Excellence in Artificial Intelligence,,</address> 
+              <address>Nalanda complex, Indian Institute of Technology Kharagpur,</address>
+              <address>Kharagpur, India - 721302</address>
+            </div>
+          </div>
+
+          
+
+          <div class="col-md-4">
+            <div class="contact-email">
+              <i class="bi bi-envelope"></i>
+              <h3>Email</h3>
+              <p><a href="mailto:pkmishra@mit.edu">pkmishra at cai.iitkgp.ac.in</a></p>
+            </div>
+          </div>
+
+        </div>
+
+        
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+           
+
+            <div class="social-links">
+              <a href="https://scholar.google.co.in/citations?user=rXhwtr0AAAAJ&hl=en"><i class="ai ai-google-scholar ai-3x"></i></a>
+              <a href="https://twitter.com/mishra_p_k" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="https://www.linkedin.com/in/mishra_p_k" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+
+          </div>
+
+          
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      
+      <div class="credits">
+        <!--
+        All the links in the footer should remain intact.
+        You can delete the links only if you purchased the pro version.
+        Licensing information: https://bootstrapmade.com/license/
+        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=BizPage
+      -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
