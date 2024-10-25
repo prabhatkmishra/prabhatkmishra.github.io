@@ -49,17 +49,26 @@
           <nav id="navbar" class="navbar">
             <ul>
               <li><a class="nav-link scrollto active" href="./index.html">Home</a></li>
-              <li><a class="nav-link scrollto " href="./people.html">People</a></li>
+              <li class="dropdown"><a class="nav-link scrollto "><span>PSALM Lab</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a class="nav-link scrollto " href="./people.html">People</a></li>
+                  <li><a class="nav-link scrollto " href="./resources.html">Resources</a></li>
+                </ul>
               <!-- <li><a class="nav-link scrollto " href="./research.html">Research</a></li> -->
               <li class="dropdown"><a class="nav-link scrollto "><span>Research</span> <i class="bi bi-chevron-down"></i></a>
                 <ul> 
                   <li><a class="nav-link scrollto " href="https://sites.google.com/view/psalm-lab">Projects</a></li>  
                   <li><a class="nav-link scrollto " href="./publications.html">Publications</a></li>                                 
-                 </ul>
+                </ul>
                </li>
-              
-              <li><a class="nav-link scrollto " href="./training.html">Training</a></li>
-              
+               <li class="dropdown"><a class="nav-link scrollto "><span>Training</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a class="nav-link scrollto " href="./training.html">AI/ML for Robot autonomy</a></li>
+                  <li><a class="nav-link scrollto " href="./training.html">AI for Cyber Physical Systems</a></li>
+                  <li><a class="nav-link scrollto " href="./training.html">Linear Algebra for AI/ML</a></li>
+                  <!-- <li><a class="nav-link scrollto " href="./training.html">Course Proejcts</a></li>
+                  <li><a class="nav-link scrollto " href="./training.html">Seminar Topics</a></li> -->
+                </ul>  
               <li><a class="nav-link scrollto" href="#footer">Contact</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
@@ -75,123 +84,69 @@
   <section id="hero">
     <div class="hero-container">
       <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
-
         <ol id="hero-carousel-indicators" class="carousel-indicators"></ol>
-
         <div class="carousel-inner" role="listbox">
-
           <div class="carousel-item active" style="background-image: url(assets/img/hero-carousel/banner.jpeg)">
             <div class="carousel-container">
               <div class="container">
+                <div class="container">
                 <h2 class="animate__animated animate__fadeInDown">Predictive Stochastic Adaptive Learning Machines</h2>
-                <!-- <p class="animate__animated animate__fadeInUp">Autonomous Navigation</p> -->
-                <a href="./index.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">Home</a>
+                <p class="animate__animated animate__fadeInUp">
+                    PSALM (Predictive Stochastic Adaptive Learning Machines) Lab at IIT Kharagpur is focused on research at the intersection of control theory and Artificial Intelligence (AI). The real world applications of AI require safety guarantee and explainability of the AI module. In addition, several modules such as sensing and perception, planning and action need to interact to complete the feedback loop. Our main focus is in planning and decision making but we also consider sensing and actuation along with the effects of communication channels whenever required. 
+                </p>
                 <a href="./people.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">People</a>
-                <a href="./publications.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">Research</a>
-                <a href="./training.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">Training</a>
-                <a href="#footer" class="btn-get-started scrollto animate__animated animate__fadeInUp">Contact</a>
+                <a href="./resources.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">Resources</a>   
+                <!-- <h2 class="animate__animated animate__fadeInDown">Predictive Stochastic Adaptive Learning Machines</h2> -->
+                <!-- <a href="./index.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">Home</a> -->
+                <!-- <a href="./people.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">People</a> -->
+                <a href="./publications.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">Publications</a>
+                <!-- <a href="./training.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">Training</a> -->
+                <!-- <a href="#footer" class="btn-get-started scrollto animate__animated animate__fadeInUp">Contact</a> -->
               </div>
             </div>
           </div>
-         
-          
-
-        </div>
-
-        
+        </div> 
       </div>
     </div>
-  
   </section>
-  <!-- End Hero Section -->
+  <!-- End Hero Section
 
   <main id="main">
 
-       <!-- ======= Announcement ========= -->
-    <section id="about">
-      <div class="container" data-aos="fade-up">
-  
-        <header class="section-header">        
-            <h3>Announcements for students</h3>
-        </header>
+    <!-- ======= PI Section ======= -->
+ <section id="testimonials" class="section-bg">
+  <div class="container" data-aos="fade-up">
+
+    <div class="testimonials-carousel swiper" data-aos="fade-up" data-aos-delay="100">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <img src="assets/img/People/pkmishra.png" class="testimonial-img" alt="">
+            <h3><a href = "https://www.iitkgp.ac.in/department/AI/faculty/ai-pkmishra">Dr. Prabhat Kumar Mishra</a></h3>
+            <h4>Assistant Professor, IIT Kharagpur </h4>
+              <p align="justify">I am an Assistant Professor with the  Department of Artificial Intelligence (<a href = "https://www.ai.iitkgp.ac.in">DAI</a>), Indian Institute of Technology Kharagpur (<a href = "https://www.iitkgp.ac.in">IITKgp</a>), India, and currently working at the intersection of control and learning. I am developing algorithms for autonomous systems to make them smarter with the help of data and distribution. I use control theory to provide safety certificates, and to enhance explainability and trustworthiness of AI driven techniques.</p>
+              <p align="justify">I  did PhD from the Indian Institute of Technology Bombay (<a href = "https://www.iitb.ac.in">IITB</a>), India, on Stochastic Model Predictive Control (MPC) for Cyber Physical Systems. During my PhD, I received a Swiss Government Excellence Scholarship to study at the Ecole Polytechnique Federale de Lausanne (<a href= "https://www.epfl.ch/en/">EPFL</a>), Switzerland, for one year. 
+               I learnt Gaussian process regression and implemented stochastic MPC on a quadcopter during my stay at EPFL.</p> 
+              <p align="justify">Before joining IITKgp, I was a Postdoctoral Associate at the Massachusetts Institute of Technology (<a href="https://www.mit.edu">MIT</a>), USA, 
+               and working on polynomial chaos theory for advanced manufacturing applications. 
+               Prior to that, I was a Postdoctoral Research Asssociate at the University of Illinois at Urbana Champaign (<a href = "https://illinois.edu">UIUC</a>), USA, 
+               where we developed a couple of deep learning supported MPC algorithms and a constrained estimator for the agricultural robotics and aerospace applications. </p>
+            <!-- </p> -->
+            <div class="container">
+              <a href="https://www.iitkgp.ac.in/assets/bio_sketch/MjMwNjc=.pdf" class="btn-get-started scrollto animate__animated animate__fadeInUp">Resume</a>
+            </div>
+          </div>
           
-        <ul>
-        <li>Please use your institute email for the first communciation and mention your roll number. Once you join the PSALM lab, we can communicate through a slack channel.</p>
-        </li>
-        <li>Internships: I offer internships to students who have at least six months prior connection with me or my collaborators in any form such as research, courses or some volunteer activity.</p>
-        </li>
-        <li>BTP and MTP: Please write one paragraph on your career goals and what <a href = "./student_projects.html">help</a> you need from me to achieve them.</p>  
-        </li>   
-        <li>PhD: Please visit my research and <a href = "./publications.html">publication</a> profile and enumerate the keywords that you already know.</li> 
-        </ul>
-                
-            
+        </div>
+        
       </div>
-    </section>
-    <!-- News and Announcements -->
-
-    <!-- About Prabhat Kumar Mishra -->
-    <section id="about">
-      <div class="container" data-aos="fade-up">
-
-        <header class="section-header">        
-          <h3>About me</h3>
-        </header>
-         
-         <p>I am an Assistant Professor with the  Centre of Excellence in Artificial Intelligence (<a href = "https://www.ai.iitkgp.ac.in">CoEAI</a>), Indian Institute of Technology Kharagpur (<a href = "https://www.iitkgp.ac.in">IITKgp</a>), India, and currently working at the intersection of control and learning. I am developing algorithms for autonomous systems to make them smarter with the help of data and distribution. I use control theory to provide safety certificates, and to enhance explainability and trustworthiness of AI driven techniques. </p>
-         <p>I  did PhD from the Indian Institute of Technology Bombay (<a href = "https://www.iitb.ac.in">IITB</a>), India, on Stochastic Model Predictive Control (MPC) for Cyber Physical Systems. During my PhD, I received a Swiss Government Excellence Scholarship to study at the Ecole Polytechnique Federale de Lausanne (<a href= "https://www.epfl.ch/en/">EPFL</a>), Switzerland, for one year. 
-          I learnt Gaussian process regression and implemented stochastic MPC on a quadcopter during my stay at EPFL.</p> 
-         <p>Before joining IITKgp, I was a Postdoctoral Associate at the Massachusetts Institute of Technology (<a href="https://www.mit.edu">MIT</a>), USA, 
-          and working on polynomial chaos theory for advanced manufacturing applications. 
-          Prior to that, I was a Postdoctoral Research Asssociate at the University of Illinois at Urbana Champaign (<a href = "https://illinois.edu">UIUC</a>), USA, 
-          where we developed a couple of deep learning supported MPC algorithms and a constrained estimator for the agricultural robotics and aerospace applications. </p>
       
-    
-      
-    <!-- <header class="section-header"> -->
-          <h1>Awards</h1>
-    <!-- </header> -->
-        
-      
-        <p>2022: Excellent Reviewer, Journal of Guidance, Control, and Dynamics</p>
-        <p>2018: Outstanding reviewer award, Systems and Control Letters</p>
-        <p>2017: Swiss Government Excellence Scholarship</p>
-        <p>2017: Top reviewer for IIT Bombay (Chemical Engineering), Web of Science </p>
-        
-    
-    
+      <div class="swiper-pagination"></div>
+    </div>
 
-    <!-- <header class="section-header"> -->
-      <h1>Professional activities</h1>
-    <!-- </header> -->
-
-  
-        <p>Member of the Humanitarian Technology Board (HTB) project proposals, IEEE</p>
-        <p>Member of the Chancellor's Innovation Fund Review Committee, MIT, USA</p>
-        <p>Member of the Search committee for research scientist, National Center for Supercomputing Applications, UIUC, USA</p>
-        <p>Invited reviewership</p> 
-          <ol>
-            <li>IEEE Transactions on Neural Networks and Learning Systems
-            <li>Automatica
-            <li>IEEE Transactions on Automatic Control
-            <li>Systems & Control Letters
-            <li>International Journal of Robust and Nonlinear Control
-            <li>Journal of Process Control
-            <li>IEEE Transactions on Nuclear Science
-            <li>IET Control Theory & Applications
-            <li>IEEE Control Systems Letters
-            <li>Conference on Decision and Control
-            <li>IFAC World Congress
-            <li>Indian Control Conference
-            <li>IEEE Conference on Control Technology and Applications
-            <li>American Control Conference, European Control Conference
-            <li>IFAC Symposium on Nonlinear Control Systems
-          </ol>
-     
-      
-    </section>
-    <!-- end About  -->
-
+  </div>
+</section><!-- End PI Section -->
     
     <!-- ======= Organizations ======= -->
     <header class="section-header">
@@ -260,7 +215,7 @@
           <h3>Acknowledgement</h3>
         </div>
           <!-- <p>I have been lucky to work with the following wonderful people.</p> -->
-          <p> I am grateful to people who invested their time and efforts in my training and well-being. I curiously follow the research that their group is doing. 
+          <p> I am grateful to people who invested their time and efforts in my training and well-being. I curiously follow the research that their groups are doing. 
             I express my sincere thanks and consider myself lucky for the opprotunity that I got to work with them. </p>
         
 
@@ -381,8 +336,8 @@
             <div class="contact-address">
               <i class="bi bi-geo-alt"></i>
               <!-- <h3>Address</h3> -->
-              <address>Centre of Excellence in Artificial Intelligence,</address> 
-              <address>Nalanda complex, Indian Institute of Technology Kharagpur,</address>
+              <address>Dept. of Artificial Intelligence,</address> 
+              <address>CET 021, Takshashila building, IIT Kharagpur</address>
               <address>Kharagpur, India - 721302</address>
             </div>
           </div>
@@ -390,7 +345,7 @@
             <div class="contact-email">
               <i class="bi bi-envelope"></i>
               <!-- <h3>Email</h3> -->
-              <p><a href="mailto:pkmishra@mit.edu">pkmishra at cai.iitkgp.ac.in</a></p>
+              <p><a href="mailto:pkmishra@ai.iitkgp.ac.in">pkmishra at ai.iitkgp.ac.in</a></p>
             </div>
           </div>
         </div>
@@ -443,3 +398,48 @@
 </body>
 
 </html>
+
+<!-- About Prabhat Kumar Mishra -->
+<!-- <section id="about">
+  <div class="container" data-aos="fade-up">
+    <h1>Awards</h1>
+
+    
+  
+    <p>2022: Excellent Reviewer, Journal of Guidance, Control, and Dynamics</p>
+    <p>2018: Outstanding reviewer award, Systems and Control Letters</p>
+    <p>2017: Swiss Government Excellence Scholarship</p>
+    <p>2017: Top reviewer for IIT Bombay (Chemical Engineering), Web of Science </p>
+    
+
+
+
+
+  <h1>Professional activities</h1>
+
+
+    <p>Member of the Humanitarian Technology Board (HTB) project proposals, IEEE</p>
+    <p>Member of the Chancellor's Innovation Fund Review Committee, MIT, USA</p>
+    <p>Member of the Search committee for research scientist, National Center for Supercomputing Applications, UIUC, USA</p>
+    <p>Invited reviewership</p> 
+      <ol>
+        <li>IEEE Transactions on Neural Networks and Learning Systems
+        <li>Automatica
+        <li>IEEE Transactions on Automatic Control
+        <li>Systems & Control Letters
+        <li>International Journal of Robust and Nonlinear Control
+        <li>Journal of Process Control
+        <li>IEEE Transactions on Nuclear Science
+        <li>IET Control Theory & Applications
+        <li>IEEE Control Systems Letters
+        <li>Conference on Decision and Control
+        <li>IFAC World Congress
+        <li>Indian Control Conference
+        <li>IEEE Conference on Control Technology and Applications
+        <li>American Control Conference, European Control Conference
+        <li>IFAC Symposium on Nonlinear Control Systems
+      </ol>
+ 
+  
+</section> -->
+<!-- end About  -->

@@ -36,7 +36,6 @@
 
 <body>
 
-  <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center header-transparent">
     <div class="container-fluid">
 
@@ -49,15 +48,26 @@
           <nav id="navbar" class="navbar">
             <ul>
               <li><a class="nav-link scrollto active" href="./index.html">Home</a></li>
-              <li><a class="nav-link scrollto " href="./people.html">People</a></li>
+              <li class="dropdown"><a class="nav-link scrollto "><span>PSALM Lab</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a class="nav-link scrollto " href="./people.html">People</a></li>
+                  <li><a class="nav-link scrollto " href="./resources.html">Resources</a></li>
+                </ul>
               <!-- <li><a class="nav-link scrollto " href="./research.html">Research</a></li> -->
               <li class="dropdown"><a class="nav-link scrollto "><span>Research</span> <i class="bi bi-chevron-down"></i></a>
                 <ul> 
                   <li><a class="nav-link scrollto " href="https://sites.google.com/view/psalm-lab">Projects</a></li>  
                   <li><a class="nav-link scrollto " href="./publications.html">Publications</a></li>                                 
-                 </ul>
+                </ul>
                </li>
-              
+               <li class="dropdown"><a class="nav-link scrollto "><span>Training</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a class="nav-link scrollto " href="./training.html">AI/ML for Robot autonomy</a></li>
+                  <li><a class="nav-link scrollto " href="./training.html">AI for Cyber Physical Systems</a></li>
+                  <li><a class="nav-link scrollto " href="./training.html">Linear Algebra for AI/ML</a></li>
+                  <!-- <li><a class="nav-link scrollto " href="./training.html">Course Proejcts</a></li>
+                  <li><a class="nav-link scrollto " href="./training.html">Seminar Topics</a></li> -->
+                </ul>  
               <li><a class="nav-link scrollto " href="./training.html">Training</a></li>
               
               <li><a class="nav-link scrollto" href="#footer">Contact</a></li>
@@ -83,13 +93,19 @@
           <div class="carousel-item active" style="background-image: url(assets/img/hero-carousel/banner.jpeg)">
             <div class="carousel-container">
               <div class="container">
+                <div class="container">
                 <h2 class="animate__animated animate__fadeInDown">Predictive Stochastic Adaptive Learning Machines</h2>
-                <!-- <p class="animate__animated animate__fadeInUp">Autonomous Navigation</p> -->
-                <a href="./index.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">Home</a>
+                <p class="animate__animated animate__fadeInUp">
+                    PSALM (Predictive Stochastic Adaptive Learning Machines) Lab at IIT Kharagpur is focused on research at the intersection of control theory and Artificial Intelligence (AI). The real world applications of AI require safety guarantee and explainability of the AI module. In addition, several modules such as sensing and perception, planning and action need to interact to complete the feedback loop. Our main focus is in planning and decision making but we also consider sensing and actuation along with the effects of communication channels whenever required. 
+                </p>
                 <a href="./people.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">People</a>
-                <a href="./research.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">Research</a>
-                <a href="./teaching.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">Teaching</a>
-                <a href="#footer" class="btn-get-started scrollto animate__animated animate__fadeInUp">Contact</a>
+                <a href="./resources.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">Resources</a>   
+                <!-- <h2 class="animate__animated animate__fadeInDown">Predictive Stochastic Adaptive Learning Machines</h2> -->
+                <!-- <a href="./index.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">Home</a> -->
+                <!-- <a href="./people.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">People</a> -->
+                <a href="./publications.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">Publications</a>
+                <!-- <a href="./training.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">Training</a> -->
+                <!-- <a href="#footer" class="btn-get-started scrollto animate__animated animate__fadeInUp">Contact</a> -->
               </div>
             </div>
           </div>

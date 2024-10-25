@@ -36,7 +36,6 @@
 
 <body>
 
-  <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center header-transparent">
     <div class="container-fluid">
 
@@ -49,16 +48,27 @@
           <nav id="navbar" class="navbar">
             <ul>
               <li><a class="nav-link scrollto active" href="./index.html">Home</a></li>
-              <li><a class="nav-link scrollto " href="./people.html">People</a></li>
+              <li class="dropdown"><a class="nav-link scrollto "><span>PSALM Lab</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a class="nav-link scrollto " href="./people.html">People</a></li>
+                  <li><a class="nav-link scrollto " href="./resources.html">Resources</a></li>
+                </ul>
               <!-- <li><a class="nav-link scrollto " href="./research.html">Research</a></li> -->
               <li class="dropdown"><a class="nav-link scrollto "><span>Research</span> <i class="bi bi-chevron-down"></i></a>
                 <ul> 
                   <li><a class="nav-link scrollto " href="https://sites.google.com/view/psalm-lab">Projects</a></li>  
                   <li><a class="nav-link scrollto " href="./publications.html">Publications</a></li>                                 
-                 </ul>
+                </ul>
                </li>
-              
-              <li><a class="nav-link scrollto " href="./training.html">Training</a></li>
+               <li class="dropdown"><a class="nav-link scrollto "><span>Training</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a class="nav-link scrollto " href="./training.html">AI/ML for Robot autonomy</a></li>
+                  <li><a class="nav-link scrollto " href="./training.html">AI for Cyber Physical Systems</a></li>
+                  <li><a class="nav-link scrollto " href="./training.html">Linear Algebra for AI/ML</a></li>
+                  <!-- <li><a class="nav-link scrollto " href="./training.html">Course Proejcts</a></li>
+                  <li><a class="nav-link scrollto " href="./training.html">Seminar Topics</a></li> -->
+                </ul>  
+              <!-- <li><a class="nav-link scrollto " href="./training.html">Training</a></li> -->
               
               <li><a class="nav-link scrollto" href="#footer">Contact</a></li>
             </ul>
@@ -83,13 +93,19 @@
           <div class="carousel-item active" style="background-image: url(assets/img/hero-carousel/banner.jpeg)">
             <div class="carousel-container">
               <div class="container">
-                <h2 class="animate__animated animate__fadeInDown">People</h2>
-                <!-- <p class="animate__animated animate__fadeInUp">Autonomous Navigation</p> -->
-                <a href="./index.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">Home</a>
-                <a href="#mentors" class="btn-get-started scrollto animate__animated animate__fadeInUp">Mentors</a>
-                <a href="#collaborators" class="btn-get-started scrollto animate__animated animate__fadeInUp">Collaborators</a>
-                <!-- <a href="./teaching.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">Teaching</a> -->
-                <a href="#footer" class="btn-get-started scrollto animate__animated animate__fadeInUp">Contact</a>
+                <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">Predictive Stochastic Adaptive Learning Machines</h2>
+                <p class="animate__animated animate__fadeInUp">
+                    PSALM (Predictive Stochastic Adaptive Learning Machines) Lab at IIT Kharagpur is focused on research at the intersection of control theory and Artificial Intelligence (AI). The real world applications of AI require safety guarantee and explainability of the AI module. In addition, several modules such as sensing and perception, planning and action need to interact to complete the feedback loop. Our main focus is in planning and decision making but we also consider sensing and actuation along with the effects of communication channels whenever required. 
+                </p>
+                <a href="./people.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">People</a>
+                <a href="./resources.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">Resources</a>   
+                <!-- <h2 class="animate__animated animate__fadeInDown">Predictive Stochastic Adaptive Learning Machines</h2> -->
+                <!-- <a href="./index.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">Home</a> -->
+                <!-- <a href="./people.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">People</a> -->
+                <a href="./publications.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">Publications</a>
+                <!-- <a href="./training.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">Training</a> -->
+                <!-- <a href="#footer" class="btn-get-started scrollto animate__animated animate__fadeInUp">Contact</a> -->
               </div>
             </div>
           </div>
@@ -106,9 +122,139 @@
   <!-- End Hero Section -->
 
   <main id="main">
+<!-- ======= Announcement ========= -->
+<section id="about">
+  <div class="container" data-aos="fade-up">
 
-    
-  <section id = "team">
+    <header class="section-header">        
+        <h3>Join us</h3>
+    </header>
+      
+    <ul>
+    <li>I am looking for motivated students to work at the intersection of control and learning.   
+    </ul>
+            
+        
+  </div>
+</section>
+<!-- News and Announcements -->
+
+ <!-- ======= PI Section ======= -->
+ <section id="testimonials" class="section-bg">
+  <div class="container" data-aos="fade-up">
+
+    <header class="section-header">
+      <h3>Principle Investigator</h3>
+    </header>
+
+    <div class="testimonials-carousel swiper" data-aos="fade-up" data-aos-delay="100">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <img src="assets/img/People/pkmishra.png" class="testimonial-img" alt="">
+            <h3><a href = "https://www.iitkgp.ac.in/department/AI/faculty/ai-pkmishra">Dr. Prabhat Kumar Mishra</a></h3>
+            <h4>Assistant Professor, IIT Kharagpur </h4>
+              <!-- <p align="justify">I am an Assistant Professor with the  Department of Artificial Intelligence (<a href = "https://www.ai.iitkgp.ac.in">DAI</a>), Indian Institute of Technology Kharagpur (<a href = "https://www.iitkgp.ac.in">IITKgp</a>), India, and currently working at the intersection of control and learning. I am developing algorithms for autonomous systems to make them smarter with the help of data and distribution. I use control theory to provide safety certificates, and to enhance explainability and trustworthiness of AI driven techniques.</p>
+              <p align="justify">I  did PhD from the Indian Institute of Technology Bombay (<a href = "https://www.iitb.ac.in">IITB</a>), India, on Stochastic Model Predictive Control (MPC) for Cyber Physical Systems. During my PhD, I received a Swiss Government Excellence Scholarship to study at the Ecole Polytechnique Federale de Lausanne (<a href= "https://www.epfl.ch/en/">EPFL</a>), Switzerland, for one year. 
+               I learnt Gaussian process regression and implemented stochastic MPC on a quadcopter during my stay at EPFL.</p> 
+              <p align="justify">Before joining IITKgp, I was a Postdoctoral Associate at the Massachusetts Institute of Technology (<a href="https://www.mit.edu">MIT</a>), USA, 
+               and working on polynomial chaos theory for advanced manufacturing applications. 
+               Prior to that, I was a Postdoctoral Research Asssociate at the University of Illinois at Urbana Champaign (<a href = "https://illinois.edu">UIUC</a>), USA, 
+               where we developed a couple of deep learning supported MPC algorithms and a constrained estimator for the agricultural robotics and aerospace applications. </p> -->
+            <!-- </p> -->
+            <div class="carousel-container">
+            <a href="https://www.iitkgp.ac.in/assets/bio_sketch/MjMwNjc=.pdf" class="btn-get-started scrollto animate__animated animate__fadeInUp">Resume</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+  </div>
+</section><!-- End PI Section -->   
+ <!-- ======= MTP Section ======= -->
+ <section id="testimonials" class="section-bg">
+  <div class="container" data-aos="fade-up">
+
+    <header class="section-header">
+      <h3>Dual Degree Students</h3>
+    </header>
+
+    <div class="testimonials-slider" data-aos="fade-up" data-aos-delay="100">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <img src="assets/img/People/rajkishore.jpeg" class="testimonial-img" alt="">
+            <h3>Raj Kishore</h3>
+            <h4>Dept. of Artificial Intelligence</h4>
+            <p>
+              Thesis: Data-driven Koopman model predictive control and filtering
+            </p>
+            <div class="social">                    
+              <a href="https://www.linkedin.com/in/raj-kishore-55403b25a/"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+          
+        </div><!-- End MTP -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <img src="assets/img/People/asharma.jpeg" class="testimonial-img" alt="">
+            <h3>Adarsh Sharma</h3>
+            <h4>Dept. of Artificial Intelligence</h4>
+            <p>
+              Thesis: Optimizing Text Summarization through Reinforcement Learning from Human Feedback for Large Language Models
+            </p>
+            <div class="social">                    
+              <a href="https://www.linkedin.com/in/adarsh-sharma1466/"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+          
+        </div><!-- End MTP -->
+
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+  </div>
+</section><!-- End MTP Section -->    
+
+<!-- ======= BTP Section ======= -->
+<section id="testimonials" class="section-bg">
+  <div class="container" data-aos="fade-up">
+
+    <header class="section-header">
+      <h3>B.Tech. Students</h3>
+    </header>
+
+    <div class="testimonials-carousel swiper" data-aos="fade-up" data-aos-delay="100">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <img src="assets/img/People/nlaxmikanth.jpeg" class="testimonial-img" alt="">
+            <h3>Nageshwar Laxmikanth</h3>
+            <h4>Aerospace Engineering, IIT Kharagpur</h4>
+            <p>Thesis: Learning Based Model Predictive Control Techniques for Autonomous Systems</p>
+            <div class="social">                    
+              <a href="https://www.linkedin.com/in/lakshmikanth-nageswar/"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+  </div>
+</section><!-- End BTP Section -->
+
+
+<!-- <section id = "team">
     <section id="mentors">
       
     <div class="section-header">
@@ -210,7 +356,7 @@
       </div>
     </div>
     </section>    
-  </section>
+  </section> -->
         
   <section id = "team">      
     <section id = "collaborators">
@@ -374,14 +520,13 @@
           <!-- ======= Contact Section ======= -->
           <!-- <section id="contact" class="section-bg"> -->
       <!-- <div class="container" data-aos="fade-up"> -->
-        
         <div class="row contact-info">
           <div class="col-md-4">
             <div class="contact-address">
               <i class="bi bi-geo-alt"></i>
               <!-- <h3>Address</h3> -->
-              <address>Centre of Excellence in Artificial Intelligence,</address> 
-              <address>Nalanda complex, Indian Institute of Technology Kharagpur,</address>
+              <address>Dept. of Artificial Intelligence,</address> 
+              <address>CET 021, Takshashila building, IIT Kharagpur</address>
               <address>Kharagpur, India - 721302</address>
             </div>
           </div>
@@ -389,7 +534,7 @@
             <div class="contact-email">
               <i class="bi bi-envelope"></i>
               <!-- <h3>Email</h3> -->
-              <p><a href="mailto:pkmishra@mit.edu">pkmishra at cai.iitkgp.ac.in</a></p>
+              <p><a href="mailto:pkmishra@ai.iitkgp.ac.in">pkmishra at ai.iitkgp.ac.in</a></p>
             </div>
           </div>
         </div>
