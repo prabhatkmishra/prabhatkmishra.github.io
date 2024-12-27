@@ -21,6 +21,10 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/academicons.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -36,7 +40,7 @@
 
 <body>
 
-  
+  <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center header-transparent">
     <div class="container-fluid">
 
@@ -82,7 +86,6 @@
     </div>
   </header><!-- End Header -->
 
-
   <!-- ======= hero Section ======= -->
   <section id="hero">
     <div class="hero-container">
@@ -96,10 +99,10 @@
             <div class="carousel-container">
               <div class="container">
                 <div class="container">
-                <h2 class="animate__animated animate__fadeInDown">Predictive Stochastic Adaptive Learning Machines</h2>
-                <p class="animate__animated animate__fadeInUp">
+                <h2 class="animate__animated animate__fadeInDown">AI61006: Artificial Intelligence for Cyber Physical Systems</h2>
+                <!-- <p class="animate__animated animate__fadeInUp">
                     PSALM (Predictive Stochastic Adaptive Learning Machines) Lab at IIT Kharagpur is focused on research at the intersection of control theory and Artificial Intelligence (AI). The real world applications of AI require safety guarantee and explainability of the AI module. In addition, several modules such as sensing and perception, planning and action need to interact to complete the feedback loop. Our main focus is in planning and decision making but we also consider sensing and actuation along with the effects of communication channels whenever required. 
-                </p>
+                </p> -->
                 <a href="./people.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">People</a>
                 <a href="./resources.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">Resources</a>   
                 <!-- <h2 class="animate__animated animate__fadeInDown">Predictive Stochastic Adaptive Learning Machines</h2> -->
@@ -121,103 +124,120 @@
     </div>
   
   </section>
-  <!-- End Hero Section -->
+    
 
   <main id="main">
+    <!-- End Hero Section -->
+  
+  <!-- AI4CPS -->
+  <section id="AI4CPS">
+    <div class="container" data-aos="fade-up">
 
+      <!-- <header class="section-header">        
+        <h3>AI61006: Artificial Intelligence for Cyber Physical Systems</h3>
+      </header>
+        -->
+       
+      <h1>Objective</h1>
+      <ul>
+        <li>How to formulate your domain specific problem as a CPS</li>
+        <li>How to apply some suitable AI techniques to solve a CPS problem</li>
+      </ul>
+      <h1>Modus Operandi</h1>
+      <ul>
+        <li>Ask doubts: 5%</li>
+        <li>Five minutes teaching (Pick any small topic that is taught in the class before your schedule and teach it for five minutes.): 10%</li>
+        <li>Attendance: 5%</li>
+        <li>Course project: 10%</li>
+        <ul>
+        <!-- <li>Refer to <a href="#student_projects">course-project</a> details.</li> -->
+        </ul>  
+        <li>Mid-sem: 30%</li>
+        <li>End-sem: 40%</li>
+      </ul>
+      <h1>Syllabus</h1>
+    <p> The course is dynamic and the content may include explanations of the questions asked by students as well as some LinkedIn or X discussions related to AI. The following syllabus will be followed to give story to mathematics and programming.</p> 
+    <p> In other words, more focus will be given to fundamentals and underlying rigorous mathematics instead of easy applications of CPS. </p>   
+      <h1>Module 1: Introduction</h1>
+      <ul>
+        <li>What is AI?</lil>
+        <li>What is CPS?</lil>
+        <li>Key features of CPS</lil>
+        <li>Modeling, sensing, planning and acting for a physical system</li>    
+      </ul>
+      <h1>Module 2: Acting</h1>
+      <ul>
+        <li>Case study</lil>
+        <li>Reinforcement learning in Gymnasium</lil>
+        <li>Deep Reinforcement Learning in HuggingFace</lil>
+        <li>MPC (if time permits)</lil>    
+      </ul>
+      <h1>Module 3: Planning</h1>
+      <ul>
+        <li>Case study</lil>
+        <li> \( A^\ast \)</lil>
+        <li>RRT</lil>
+          <li>PRM</lil>      
+      </ul>
+      <h1>Module 4: Sensing</h1>
+      <ul>
+        <li>Case study</lil>
+        <li>Overview of sensors</li>
+        <li>Kalman filter and sensor fusion</li>  
+        <li>CNN</lil>
+        <li>YOLO</lil>    
+      </ul>
+      <h1>Books and references</h1>
+      <p>Slides with topicwise references will be provided. A single book with all topics does not exist.</p>
+    </div>    
+  </section>
+  <!-- End AI4CPS  -->
+  
+  <!-- ======= Testimonials Section ======= -->
+  <section id="testimonials" class="section-bg">
+    <div class="container" data-aos="fade-up">
 
-    <!-- ======= Resources Section ======= -->
-    <section id="portfolio">
-      <div class="container" data-aos="fade-up">
-      <p>The students in PSALM Lab have access to computational resources provided by IIT Kgp and Dept. of Artificial Intelligence. We have also procured and are gradually procuring more resources to provide hands-on experience to our students.</p>
-        <header class="section-header">
-          <h3>Robotics</h3>
-          <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
-        </header>
+      <header class="section-header">
+        <h3>Testimonials</h3>
+      </header>
 
-        <div class="row about-cols">
+      <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+        <div class="swiper-wrapper">
 
-          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="about-col">
-              <div class="img">
-                <img src="assets/img/resources/Guru.png" alt="" class="img-fluid" width="500" height="500">
-                <!-- <div class="icon"><i class="bi bi-bar-chart"></i></div> -->
-              </div>
-              <h2 class="title"><a href="https://www.dronaaviation.com/product/guru/">Guru</a></h2>
+          <div class="swiper-slide">
+            <div class="testimonial-item">
               <p>
-                <ul>
-                  <li> Programmable Flight Controller</li>
-                  <li> Multi-Sensor Integrable </li>
-                </ul>
+                <img src="assets/img/quote-sign-left.png" class="quote-sign-left" alt="">
+                The course content is comprehensive, covering all essential topics relevant to the subject matter. The structure of
+            the course is well-organized, with clear objectives and logical progression from basic to advanced concepts. The
+            inclusion of practical examples and real-world applications enhances understanding and relevance for students.
+            Regular assessments and feedback mechanisms facilitate continuous learning and improvement.
+                <img src="assets/img/quote-sign-right.png" class="quote-sign-right" alt="">
               </p>
             </div>
-          </div>
+          </div><!-- End testimonial item -->
 
-          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="about-col">
-              <div class="img">
-                <img src="assets/img/resources/turtlebot3.png" alt="" class="img-fluid" height="100">
-                <!-- <div class="icon"><i class="bi bi-brightness-high"></i></div> -->
-              </div>
-              <h2 class="title"><a href="https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/">Turtlebot</a></h2>
+          <div class="swiper-slide">
+            <div class="testimonial-item">
               <p>
-                <ul>
-                  <li>SLAM</li>
-                  <li>Autonomous driving</li>
-                  <li>Teleoperation</li>
-                  <li>Obstacle avoidance</li>
-                </ul>
+                <img src="assets/img/quote-sign-left.png" class="quote-sign-left" alt="">
+                Can't stress about how helpful sir is. He concentrates on everyone in the class. Teaches really well. And also helps
+anyone who is struggling by sending supporting resources. Truly felt like an IITian after this course. He makes it
+intellectually stimulating by giving real life examples and also make us think to solve real life problems.
+                <img src="assets/img/quote-sign-right.png" class="quote-sign-right" alt="">
               </p>
             </div>
-          </div>
+          </div><!-- End testimonial item -->
 
-          <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="about-col">
-              <div class="img">
-                <img src="assets/img/resources/crazyflie.png" alt="" class="img-fluid">
-                <!-- <div class="icon"><i class="bi bi-calendar4-week"></i></div> -->
-              </div>
-              <h2 class="title"><a href="https://www.bitcraze.io">Crazyflie</a></h2>
-              <p>
-                <ul>
-                  <li><a href = "https://www.bitcraze.io/2019/10/learning-to-seek-autonomous-source-seeking-using-deep-reinforcement-learning-onboard-a-crazyflie/">Source seeking with Deep RL</a></lil>
-                  <li><a href = "https://www.bitcraze.io/2023/11/adaptive-cooperative-flight-for-transportation-using-crazyflies/">Adaptive cooperativve flights</a></lil>
-                  <li><a href = "https://www.bitcraze.io/2023/08/an-overview-of-our-repositories/">Overview of crazyflie repositories</a></lil>
-                </ul>
-              </p>
-            </div>
-          </div>
-
-          <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="about-col">
-              <div class="img">
-                <img src="assets/img/resources/pluto.png" alt="" class="img-fluid">
-                <!-- <div class="icon"><i class="bi bi-calendar4-week"></i></div> -->
-              </div>
-              <h2 class="title"><a href="https://www.dronaaviation.com/plutox/">Pluto X</a></h2>
-              <p>
-                <ul>
-                  <li>16 GPIOs</li>
-                  <li>2 DAC Channels</li>
-                  <li>10 DOF Sensor Suit</li>
-                  <li>4 Mosfet Drivers</li>
-                  <li>2 UARTS</li>
-                  <li>20 Pin Header</li>
-                  <li>4 H Bridge Drivers</li>
-                  <li>11 Timer Channels</li>
-                  <!-- <li><a href = "https://www.bitcraze.io/2019/10/learning-to-seek-autonomous-source-seeking-using-deep-reinforcement-learning-onboard-a-crazyflie/">Source seeking with Deep RL</a></lil>
-                  <li><a href = "https://www.bitcraze.io/2023/11/adaptive-cooperative-flight-for-transportation-using-crazyflies/">Adaptive cooperativve flights</a></lil>
-                  <li><a href = "https://www.bitcraze.io/2023/08/an-overview-of-our-repositories/">Overview of crazyflie repositories</a></lil> -->
-                </ul>
-              </p>
-            </div>
-          </div>
-
+          
         </div>
-
+        <div class="swiper-pagination"></div>
       </div>
-    </section><!-- End Resources Section -->
 
+    </div>
+  </section><!-- End Testimonials Section -->
+
+ 
 
   </main><!-- End #main -->
 
@@ -230,6 +250,7 @@
           <!-- ======= Contact Section ======= -->
           <!-- <section id="contact" class="section-bg"> -->
       <!-- <div class="container" data-aos="fade-up"> -->
+        
         <div class="row contact-info">
           <div class="col-md-4">
             <div class="contact-address">
@@ -248,6 +269,7 @@
             </div>
           </div>
         </div>
+
       <!-- </div> -->
           <!-- </section> -->
           <!-- End Contact Section -->
