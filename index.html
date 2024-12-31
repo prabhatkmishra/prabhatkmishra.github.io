@@ -25,6 +25,10 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+  
+
+
   <!-- =======================================================
   * Template Name: BizPage
   * Updated: Mar 10 2023 with Bootstrap v5.2.3
@@ -111,7 +115,10 @@
   </section>
   <!-- End Hero Section
 
+
   <main id="main">
+
+   
 
     <!-- ======= PI Section ======= -->
  <section id="testimonials" class="section-bg">
@@ -346,12 +353,16 @@
               <i class="bi bi-envelope"></i>
               <!-- <h3>Email</h3> -->
               <p><a href="mailto:pkmishra@ai.iitkgp.ac.in">pkmishra at ai.iitkgp.ac.in</a></p>
+              
             </div>
           </div>
         </div>
       <!-- </div> -->
           <!-- </section> -->
           <!-- End Contact Section -->
+
+           
+
 
           <div class="col-lg-3 col-md-6 footer-contact">
            <div class="social-links">
@@ -360,16 +371,34 @@
               <a href="https://www.linkedin.com/in/mishra-p-k" class="linkedin"><i class="bi bi-linkedin"></i></a>
             </div>
           </div>
-
+          <!-- Google Calendar Appointment Scheduling begin -->
+          <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+          <script>
+            (function() {
+              var target = document.currentScript;
+              window.addEventListener('load', function() {
+                calendar.schedulingButton.load({
+                  url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ0epz8xfTzyWovOpt-muTLc2SW1WvbVujLhyW77m5AYosEyVQtdtLUROCkWUUWYCMuDOo7R1_mA?gv=true',
+                  color: '#33B679',
+                  label: 'Book an appointment',
+                  target,
+                });
+              });
+            })();
+            </script>
+            <!-- end Google Calendar Appointment Scheduling --> 
           
 
         </div>
       </div>
     </div>
 
+    
     <div class="container">
-      
+       
       <div class="credits">
+      
+        
         <!--
         All the links in the footer should remain intact.
         You can delete the links only if you purchased the pro version.
@@ -380,6 +409,8 @@
       </div>
     </div>
   </footer><!-- End Footer -->
+
+  
 
   <!-- <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a> -->
   
