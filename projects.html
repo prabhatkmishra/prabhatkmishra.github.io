@@ -21,6 +21,10 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/academicons.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -63,11 +67,10 @@
                </li>
                <li class="dropdown"><a class="nav-link scrollto "><span>Training</span> <i class="bi bi-chevron-down"></i></a>
                 <ul>
-                  <li><a class="nav-link scrollto " href="./training.html">AI/ML for Robot autonomy</a></li>
-                  <li><a class="nav-link scrollto " href="./training.html">AI for Cyber Physical Systems</a></li>
+                  <li><a class="nav-link scrollto " href="./robot_autonomy.html">AI/ML for Robot autonomy</a></li>
+                  <li><a class="nav-link scrollto " href="./cps.html">AI for Cyber Physical Systems</a></li>
                   <li><a class="nav-link scrollto " href="./training.html">Linear Algebra for AI/ML</a></li>
-                  <!-- <li><a class="nav-link scrollto " href="./training.html">Course Proejcts</a></li>
-                  <li><a class="nav-link scrollto " href="./training.html">Seminar Topics</a></li> -->
+                  <li><a class="nav-link scrollto " href="./projects.html">Student Projects</a></li>
                 </ul>  
               <!-- <li><a class="nav-link scrollto " href="./training.html">Training</a></li> -->
               <li><a class="nav-link scrollto active" href="./News.html">News</a></li>
@@ -95,10 +98,10 @@
             <div class="carousel-container">
               <div class="container">
                 <div class="container">
-                <h2 class="animate__animated animate__fadeInDown">Predictive Stochastic Adaptive Learning Machines</h2>
-                <p class="animate__animated animate__fadeInUp">
+                <h2 class="animate__animated animate__fadeInDown">Student Projects</h2>
+                <!-- <p class="animate__animated animate__fadeInUp">
                     PSALM (Predictive Stochastic Adaptive Learning Machines) Lab at IIT Kharagpur is focused on research at the intersection of control theory and Artificial Intelligence (AI). The real world applications of AI require safety guarantee and explainability of the AI module. In addition, several modules such as sensing and perception, planning and action need to interact to complete the feedback loop. Our main focus is in planning and decision making but we also consider sensing and actuation along with the effects of communication channels whenever required. 
-                </p>
+                </p> -->
                 <a href="./people.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">People</a>
                 <a href="./resources.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">Resources</a>   
                 <!-- <h2 class="animate__animated animate__fadeInDown">Predictive Stochastic Adaptive Learning Machines</h2> -->
@@ -120,117 +123,54 @@
     </div>
   
   </section>
-  <!-- End Hero Section -->
+    
 
   <main id="main">
-    <!-- End Hero Section -->
-    <section id="robot">
+
+    <section id="student_projects">
       <div class="container" data-aos="fade-up">
   
         <header class="section-header">        
-          <h3>AI60209: AI/ML for Robot Autonomy</h3>
+          <h3>Projects for students (Internship, BTP, MTP, Course)</h3>
         </header>
-         
-         
-        <h1>Objective</h1>
-        <p>This course presents AI/ML based principles for endowing robots with capabilities to autonomously learn new skills to make the control of robots safe. 
-        The global robotics technology market size is expected to surpass around 283 billion USD by 2032 (<a href = "https://www.precedenceresearch.com/robotics-technology-market">Ref</a>). 
-        The aim of this course is to introduce students with basics as well as modern robot autonomy. 
-        Students will be able to understand why AI/ML based methods are required in the modern robotics industry and why the traditional AI/ML is not directly applicable. 
-        Students will be introduced to the following</p>
-        <ul>
-          <li>a set of control laws that enable motion- planning by learning the dynamical systems</li>
-          <li>reinforcement learning and its relationship to optimal control for robotics, and imitation learning</li>
-        </ul>
-        <h1>Modus Operandi</h1>
-        <ul>
-          <li>Class-room activities: 10%</li>
-          <ul>
-            <li>Participate in class-room discussions and ask quality questions</li>
-            <li>Five minutes teaching: Pick any small topic that is taught in the class before your schedule and teach it for five minutes.</li>
-            <li>Attendance</li> 
-          </ul>
-          <li>Course project: 20%</li>
-          <ul>
-          <li>I will provide you codes. Your job will be to run that code by yourself and understand the algorithms and associated theory.</li>
-          </ul>  
-          <li>Mid-sem: 30%</li>
-          <li>End-sem: 40%</li>
-        </ul>
-        <h1>Syllabus</h1>
-        <h1>Module 1: Foundation for robotics and control</h1>
-           <p>Robot body (introduction and rigid transformation), Robot motion (SO3, screw, twist and inverse kinematics), Robot dynamics (angular momentum, rotational inertia, kinetic energy, force, change of frames), cart-pole, quadrotors (simulation using ROS/ Gazebo), mobile robots (simulation using ROS/ Gazebo), Open-loop vs. closed-loop control, notions of safety, chance constraints, stability, stabilizability, controllability and reachability</p>
-        <h1>Module 2: Autonomy with dynamical systems</h1>
-           <p>Learning from demonstration: teaching robots via human demonstration such as teleoperation, kinesthetic teaching and observational learning</p>
-           <p>Learning a control law: three classic regression methods to estimate model and demonstrates their inability to learn a stable dynamical system (DS), brief introduction to Lyapunov theory, Gaussian mixture regression, physically consistent estimation approach for Gaussian mixture models</p>
-           <p>Adapting and modulating an existing control law: modulations that act locally to preserve the generic properties of the nominal DS (e.g., asymptotic or global stability)</p>
-        <h1>Module 3: Autonomy under constraints</h1>
-            <p>Obstacle avoidance: modulate the DS to contour obstacles or to remain within a given workspace, Model Predictive Control (MPC), Deep MPC, stochastic MPC and constrained estimator</p>
-        <h1>Module 4: Autonomy with RL</h1>
-            <p>Robots as Markov Decision Problems,
-              Intro to RL: Sequential decision making examples of robotics, principle of optimality, dynamic programming, examples of uncertainty in the robotics, challenges and extensions of dynamic programming</p>
-            <p>Model-based and model-free RL for robot control: problem formulation, value iteration, policy iteration, Q learning, policy gradient, actor-critic, deep RL for robotics</p>
-            <p>Deep RL: DQN (Deep Q learning, deep value network, training deep Q network), Unbiased policy gradient method</p>
-            <p>Advanced on-policy RL and off-policy RL: practical first order policy optimization, efficient and stable policy optimization, incremental Monte Carlo value function estimation, trust region method, deep deterministic policy gradient, trouble and tricks in robotics, soft actor critic</p>
-            <p>Imitation learning: Behavioral cloning, direct policy learning, inverse RL, learning from comparison and physical feedback</p>
-
-        <h1>Resources</h1>
+        <p>
+        Student projects are divided in three categories. The expected outcome depends on the duration of the project and therefore, 
+        students are not supposed to complete the project. Instead, their performance will be evaluated on the basis of efforts they put in
+        learning. In addition, my inputs will be proportional to the efforts of the student. Maximum two members in a team are allowed. The three categories of projects are
+        </p>
         <ol>
-           <li>A Mathematical Introduction to Robotic Manipulation by Richard Murray, Zexiang Li and Shankar Sastry, CRC Press</li>
-           <li>Learning for Adaptive and Reactive Robot Control By Aude Billard, Sina Mirrazavi and Nadia Figueroa, MIT press</li>
-           <li>Lecture notes of Machine Learning for Robotics by Hao Su</li>
-           <li>Lecture notes of Principles of Robot Autonomy II by Marco Pavone, Dorsa Sadigh and Jeannette Bohg</li>
-           <li>Springer Handbook of Robotics, Editors: B. Siciliano and O. Khatib</li>
-           <li>Robotics, Vision and Control by Peter Corke</li>
-           <li>Probabilistic Robotics by Sebastian Thrun, Wolfram Burgard and Dieter Fox</li>
-           <li>Lecture notes on Underactuated Robotics by Russ Tedrake</li>
-           <li>Lecture notes of Robot Learning by Sanjiban Choudhury</li>
-        </ol>    
-      </div>    
-    </section>
-    <!-- End Robot Autonomy  -->  
+          <li>
+            Review and tutorial: You can select a few papers relevant as per your interest in which control and learning both are present. 
+            You can summarize those papers or their problem formulation, try to make a tree to connect other related papers and attempt to provide your own perspective. 
+            I will grade you on the basis of consistency, exhaustiveness, and completeness. You can write an article on medium or 
+            a post on LinkedIn to get noticed by the people or industries working in the related area. In this way, you will be able to secure your next career stop. 
+            Please do not use my name in your social media post without my permission. 
+          </li>
+          <li>
+            Reproduce and benchmarking: You can select a paper according to your interest and my recommendations, and reproduce their simulation results. 
+            If you have some novelty, you can make your git repository public. 
+            This open source contribution will help you to demonstrate your skills in front of interviewers and boost your resume. 
+            Please do not use my name anywhere in your git repository without my permission. 
+          </li> 
+          <li>
+            Research and invent: For the course project, you can choose any topic within the general theme of the course for your research in a team of maximum four members. 
+            You can continue the work that you are doing with other faculty members with their permission. 
+            I will provide the publishable and applicable research directions to students who are working with me and willing to follow ethics policy.
+          </li>   
+        </ol>   
+        <p>
+          You should consider the papers published in top AI and robotics conferences. You can choose papers written by famous people  
+          so that you can understand their research direction. 
+          You can also see the work carried out in top universities and industries.
+        </p>
+      </div>
+    </section> 
   
+ 
+  
+ 
 
-  <section id="student_projects">
-    <div class="container" data-aos="fade-up">
-
-      <header class="section-header">        
-        <h3>Projects for students (Internship, BTP, MTP, Course)</h3>
-      </header>
-      <p>
-      Student projects are divided in three categories. The expected outcome depends on the duration of the project and therefore, 
-      students are not supposed to complete the project. Instead, their performance will be evaluated on the basis of efforts they put in
-      learning. In addition, my inputs will be proportional to the efforts of the student. The three categories of projects are
-      </p>
-      <ol>
-        <li>
-          Review and tutorial: You can select a few papers relevant as per your interest in which control and learning both are present. 
-          You can summarize those papers or their problem formulation, try to make a tree to connect other related papers and attempt to provide your own perspective. 
-          I will grade you on the basis of consistency, exhaustiveness, and completeness. You can write an article on medium or 
-          a post on LinkedIn to get noticed by the people or industries working in the related area. In this way, you will be able to secure your next career stop. 
-          Please do not use my name in your social media post without my permission. 
-          Maximum two members in a team are allowed.
-        </li>
-        <li>
-          Reproduce and benchmarking: You can select a paper according to your interest and my recommendations, and reproduce their simulation results. 
-          If you have some novelty, you can make your git repository public. 
-          This open source contribution will help you to demonstrate your skills in front of interviewers and boost your resume. 
-          Please do not use my name anywhere in your git repository without my permission. 
-          You can work in a team of at most three members.
-        </li> 
-        <li>
-          Research and invent: For the course project, you can choose any topic within the general theme of the course for your research in a team of maximum four members. 
-          You can continue the work that you are doing with other faculty members with their permission. 
-          I will provide the publishable and applicable research directions to students who are working with me as intern, BTP or MTP student.
-        </li>   
-      </ol>   
-      <p>
-        You should consider the papers published in top AI and robotics conferences. You can choose papers written by famous people  
-        so that you can understand their research direction. 
-        You can also see the work carried out in top universities and industries.
-      </p>
-    </div>
-  </section>    
+ 
 
   </main><!-- End #main -->
 
