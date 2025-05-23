@@ -36,39 +36,36 @@
 
 <body>
 
-  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+  <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container-fluid">
 
       <div class="row justify-content-center align-items-center">
         <div class="col-xl-11 d-flex align-items-center justify-content-between">
-          <h1 class="logo"><a href="./index.html">Prabhat Kumar Mishra</a></h1>
-          <!-- Uncomment below if you prefer to use an image logo 
-          <a href="index.html" class="logo"><img src="assets/img/prabhat.jpg" alt="" class="img-fluid"></a> -->
+          <!-- <h1 class="logo"><a href="index.html">PSALM Lab</a></h1> -->
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <a href="index.html" class="logo"><img src="assets/img/lab_logo.png" alt="" class="img-fluid"></a>
 
           <nav id="navbar" class="navbar">
             <ul>
               <li><a class="nav-link scrollto active" href="./index.html">Home</a></li>
-              <li class="dropdown"><a class="nav-link scrollto "><span>PSALM Lab</span> <i class="bi bi-chevron-down"></i></a>
-                <ul>
-                  <li><a class="nav-link scrollto " href="./people.html">People</a></li>
-                  <li><a class="nav-link scrollto " href="./resources.html">Resources</a></li>
-                </ul>
+              <!-- <li class="dropdown"><a class="nav-link scrollto "><span>PSALM Lab</span> <i class="bi bi-chevron-down"></i></a> -->
+              <li><a class="nav-link scrollto active" href="./people.html">People</a></li>  
               <!-- <li><a class="nav-link scrollto " href="./research.html">Research</a></li> -->
               <li class="dropdown"><a class="nav-link scrollto "><span>Research</span> <i class="bi bi-chevron-down"></i></a>
                 <ul> 
-                  <li><a class="nav-link scrollto " href="research_projects.html">Projects</a></li>  
+                  <li><a class="nav-link scrollto " href="./research_projects.html">Projects</a></li>  
                   <li><a class="nav-link scrollto " href="./publications.html">Publications</a></li>                                 
                 </ul>
                </li>
+               <li><a class="nav-link scrollto active" href="./resources.html">Facilities</a></li>
                <li class="dropdown"><a class="nav-link scrollto "><span>Training</span> <i class="bi bi-chevron-down"></i></a>
                 <ul>
                   <li><a class="nav-link scrollto " href="./robot_autonomy.html">AI/ML for Robot autonomy</a></li>
                   <li><a class="nav-link scrollto " href="./cps.html">AI for Cyber Physical Systems</a></li>
                   <li><a class="nav-link scrollto " href="./la.html">Linear Algebra for AI/ML</a></li>
                   <li><a class="nav-link scrollto " href="./projects.html">Student Projects</a></li>
-                </ul>  
-              <!-- <li><a class="nav-link scrollto " href="./training.html">Training</a></li> -->
-              <li><a class="nav-link scrollto active" href="./News.html">News</a></li>
+                </ul>   
+              <!-- <li><a class="nav-link scrollto active" href="./News.html">News</a></li>   -->
               <li><a class="nav-link scrollto" href="#footer">Contact</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
@@ -79,92 +76,142 @@
 
     </div>
   </header><!-- End Header -->
-
-  <!-- ======= hero Section ======= -->
-  <section id="hero">
-    <div class="hero-container">
-      <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
-
-        <ol id="hero-carousel-indicators" class="carousel-indicators"></ol>
-
-        <div class="carousel-inner" role="listbox">
-
-          <div class="carousel-item active" style="background-image: url(assets/img/hero-carousel/banner.jpeg)">
-            <div class="carousel-container">
-              <div class="container">
-                <div class="container">
-                <h2 class="animate__animated animate__fadeInDown">Predictive Stochastic Adaptive Learning Machines</h2>
-                <p class="animate__animated animate__fadeInUp">
-                    PSALM (Predictive Stochastic Adaptive Learning Machines) Lab at IIT Kharagpur is focused on research at the intersection of control theory and Artificial Intelligence (AI). The real world applications of AI require safety guarantee and explainability of the AI module. In addition, several modules such as sensing and perception, planning and action need to interact to complete the feedback loop. Our main focus is in planning and decision making but we also consider sensing and actuation along with the effects of communication channels whenever required. 
-                </p>
-                <a href="./people.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">People</a>
-                <a href="./resources.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">Resources</a>   
-                <!-- <h2 class="animate__animated animate__fadeInDown">Predictive Stochastic Adaptive Learning Machines</h2> -->
-                <!-- <a href="./index.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">Home</a> -->
-                <!-- <a href="./people.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">People</a> -->
-                <a href="./publications.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">Publications</a>
-                <!-- <a href="./training.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">Training</a> -->
-                <!-- <a href="#footer" class="btn-get-started scrollto animate__animated animate__fadeInUp">Contact</a> -->
-              </div>
-            </div>
-          </div>
-         
-          
-
-        </div>
-
-        
-      </div>
-    </div>
-  
-  </section>
   <!-- End Hero Section -->
 
   <main id="main">
+    <section class="breadcrumbs">
+      <div class="container">
 
-
- <!-- ======= PI Section ======= -->
- <section id="testimonials" class="section-bg">
-  <div class="container" data-aos="fade-up">
-
-    <header class="section-header">
-      <h3>Principle Investigator</h3>
-    </header>
-
-    <div class="testimonials-carousel swiper" data-aos="fade-up" data-aos-delay="100">
-      <div class="swiper-wrapper">
-
-        <div class="swiper-slide">
-          <div class="testimonial-item">
-            <img src="assets/img/People/pkmishra.png" class="testimonial-img" alt="">
-            <h3><a href = "https://www.iitkgp.ac.in/department/AI/faculty/ai-pkmishra">Dr. Prabhat Kumar Mishra</a></h3>
-            <h4>Assistant Professor, IIT Kharagpur </h4>
-            <div class="carousel-container">
-            <a href="https://www.iitkgp.ac.in/assets/bio_sketch/MjMwNjc=.pdf" class="btn-get-started scrollto animate__animated animate__fadeInUp">Resume</a>
-            </div>
-          </div>
+        <div class="d-flex justify-content-between align-items-center">
+          <!-- <h2>Projects</h2>
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">Research</a></li>
+            <li>Projects</li>
+          </ol> -->
         </div>
 
       </div>
-      <div class="swiper-pagination"></div>
+    </section><!-- Breadcrumbs Section -->
+
+ <!-- ======= PI Section ======= -->
+
+ <section id="portfolio-details" class="portfolio-details">
+  <div class="container">
+
+    <div class="row gy-4">
+
+      <div class="col-lg-4">
+        <div class="portfolio-details-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+
+            <!-- <div class="swiper-slide"> -->
+              <img src="assets/img/People/pkmishra.png" alt="">
+            <!-- </div> -->
+
+            <!-- <div class="swiper-slide">
+              <img src="assets/img/portfolio/portfolio-details-2.jpg" alt="">
+            </div> -->
+
+            <!-- <div class="swiper-slide">
+              <img src="assets/img/portfolio/portfolio-details-3.jpg" alt="">
+            </div> -->
+
+          </div>
+          <div class="portfolio-info">
+            
+            <ul>
+            <li><h3><a href = "https://www.iitkgp.ac.in/department/AI/faculty/ai-pkmishra">Dr. Prabhat Kumar Mishra</a></h3></li>
+            <!-- <li>Assistant Professor, IIT Kharagpur</li> -->
+            <li><a id="cy-effective-orcid-url" class="underline" href="https://orcid.org/0000-0002-8507-8194" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align: top"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width: 1em; margin-inline-start: 0.5em" alt="ORCID iD icon"/> https://orcid.org/0000-0002-8507-8194</a></li>
+            <!-- <li><a href="https://www.iitkgp.ac.in/assets/bio_sketch/MjMwNjc=.pdf" class="btn-get-started scrollto animate__animated animate__fadeInUp">Resume</a></li> -->
+            <!-- <li><a href="https://www.iitkgp.ac.in/department/AI/faculty/ai-pkmishra" class="btn-get-started scrollto animate__animated animate__fadeInUp">Institute Profile</a></li> -->
+            </ul>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+      <div class="col-lg-8">
+        
+        <div class="portfolio-description">
+          <h2>Principle Investigator</h2>
+          <p align="justify">I am an Assistant Professor with the  Department of Artificial Intelligence (<a href = "https://ai.iitkgp.ac.in">DoAI</a>), Indian Institute of Technology Kharagpur (<a href = "https://www.iitkgp.ac.in">IITKgp</a>), India, and currently working at the intersection of control and learning. I am developing algorithms for autonomous systems to make them smarter with the help of data and distribution. I use control theory to provide safety certificates, and to enhance explainability and trustworthiness of AI driven techniques.</p>
+              <p align="justify">I  did PhD from the Indian Institute of Technology Bombay (<a href = "https://www.iitb.ac.in">IITB</a>), India, on Stochastic Model Predictive Control (MPC) for Cyber Physical Systems. During my PhD, I received a Swiss Government Excellence Scholarship to study at the Ecole Polytechnique Federale de Lausanne (<a href= "https://www.epfl.ch/en/">EPFL</a>), Switzerland, for one year. 
+               I learnt Gaussian process regression and implemented stochastic MPC on a quadcopter during my stay at EPFL.</p> 
+              <p align="justify">Before joining IITKgp, I was a Postdoctoral Associate at the Massachusetts Institute of Technology (<a href="https://www.mit.edu">MIT</a>), USA, 
+               and working on polynomial chaos theory for advanced manufacturing applications. 
+               Prior to that, I was a Postdoctoral Research Asssociate at the University of Illinois at Urbana Champaign (<a href = "https://illinois.edu">UIUC</a>), USA, 
+               where we developed a couple of deep learning supported MPC algorithms and a constrained estimator for the agricultural robotics and aerospace applications. </p>
+               <div class="container" data-aos="fade-up">
+        
+                <div class="row">
+        
+                  <div class="col-lg-3 col-md-2">
+                    <div class="member" data-aos="fade-up" data-aos-delay="100">
+                      <img src="assets/img/clients/mit.png" class="img-fluid" alt="">
+                    </div>
+                  </div>
+        
+                  <div class="col-lg-3 col-md-2">
+                    <div class="member" data-aos="fade-up" data-aos-delay="200">
+                      <img src="assets/img/clients/uiuc.png" class="img-fluid" alt="">
+                    </div>
+                  </div>
+        
+                  <div class="col-lg-3 col-md-2">
+                    <div class="member" data-aos="fade-up" data-aos-delay="300">
+                      <img src="assets/img/clients/epfl.png" class="img-fluid" alt="">
+                    </div>
+                  </div>
+        
+                  <div class="col-lg-2 col-md-4">
+                    <div class="member" data-aos="fade-up" data-aos-delay="400">
+                      <img src="assets/img/clients/IITB.png" class="img-fluid" alt="">
+                    </div>
+                  </div>
+        
+                  <!-- <div class="col-lg-4 col-md-4">
+                    <div class="member" data-aos="fade-up" data-aos-delay="500">
+                      <img src="assets/img/clients/Earthsense.png" class="img-fluid" alt="">
+                    </div>
+                  </div> -->
+        
+                  <!-- <div class="col-lg-4 col-md-4">
+                    <div class="member" data-aos="fade-up" data-aos-delay="600">
+                      <img src="assets/img/clients/Paderborn.png" class="img-fluid" alt="">
+                    </div>
+                  </div> -->
+        
+                  <!-- <div class="col-lg-4 col-md-4">
+                    <div class="member" data-aos="fade-up" data-aos-delay="700">
+                      <img src="assets/img/clients/Magdeburg.png" class="img-fluid" alt="">
+                    </div>
+                  </div> -->
+              
+                </div>
+              </div>
+            <!-- <div class="container"> -->
+              
+        </div>
+      </div>
+
     </div>
 
   </div>
-</section><!-- End PI Section -->   
+</section><!-- End Portfolio Details Section -->
+ 
 
 <section id="testimonials" class="section-bg">
   <div class="container" data-aos="fade-up">
 
-    <header class="section-header">
-      <h3>Postdoctoral Fellow</h3>
-    </header>
-
     <div class="testimonials-carousel swiper" data-aos="fade-up" data-aos-delay="100">
       <div class="swiper-wrapper">
 
 
         <div class="swiper-slide">
           <div class="testimonial-item">
+            
             <img src="assets/img/People/Priyam-Chakraborty.jpeg" class="testimonial-img" alt="">
             <h3><a href="https://www.linkedin.com/in/priyam-chakraborty-10412a86/">Dr. Priyam Chakraborty</a></h3>
             <h4>Chanakya Postdoctoral Fellow</h4>
@@ -178,21 +225,52 @@
         </div>
 
       </div>
-      <div class="swiper-pagination"></div>
+      <!-- <div class="swiper-pagination"></div> -->
     </div>
 
   </div>
 </section>
 <!-- End Postdoctoral Section -->  
+
+<section id="testimonials" class="section">
+  <div class="container" data-aos="fade-up">
+
+    <div class="testimonials-carousel swiper" data-aos="fade-up" data-aos-delay="100">
+      <div class="swiper-wrapper">
+
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <!-- <h3>Doctoral Student</h3> -->
+            <img src="assets/img/People/Ranjan.jpeg" class="testimonial-img" alt="">
+            <h3><a href="https://www.linkedin.com/in/ranjan-sarkar/">Ranjan Sarkar</a></h3>
+            <h3>Doctoral Student</h3>
+            <p>
+              Area of research: Reinforcement Learning  
+            </p>
+            <!-- <div class="social">                    
+              <a href="https://www.linkedin.com/in/priyam-chakraborty-10412a86/"><i class="bi bi-linkedin"></i></a>
+              <a href="https://scholar.google.co.in/citations?user=rXhwtr0AAAAJ&hl=en"><i class="twitter"><i class="bi bi-google"></i></a>
+            </div> -->
+          </div>
+          
+        </div>
+
+      </div>
+      <!-- <div class="swiper-pagination"></div> -->
+    </div>
+
+  </div>
+</section>
+<!-- End Postdoctoral Section --> 
  
 
   <!-- ======= About Us Section ======= -->
-  <section id="about">
+  <!-- <section id="about">
     <div class="container" data-aos="fade-up">
 
       <header class="section-header">
         <h3>Students</h3>
-        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
       </header>
 
       <div class="row about-cols">
@@ -204,7 +282,6 @@
               <div class="icon"><i class="bi bi-linkedin"></i></div>
             </div>
             <h2 class="title"><a href="https://www.linkedin.com/in/ranjan-sarkar/">Ranjan Sarkar</a></h2>
-            <!-- <p>Doctoral student</p> -->
             <p>
             Area of research: Reinforcement Learning  
             </p>
@@ -218,7 +295,6 @@
               <div class="icon"><i class="bi bi-linkedin"></i></div>
             </div>
             <h2 class="title"><a href="https://www.linkedin.com/in/adarsh-sharma1466/">Adarsh Sharma</a></h2>
-            <!-- <p>Dual-degree student</p> -->
             <p>
               Co-advised by <a href="https://www.linkedin.com/in/priyam-chakraborty-10412a86/">Dr. Priyam Chakraborty</a>
             </p>
@@ -235,7 +311,6 @@
               <div class="icon"><i class="bi bi-linkedin"></i></div>
             </div>
             <h2 class="title"><a href="https://www.linkedin.com/in/lakshmikanth-nageswar/">Nageshwar Laxmikanth</a></h2>
-            <!-- <h4>Aerospace Engineering, IIT Kharagpur</h4> -->
             <p>Thesis: Learning Based Model Predictive Control Techniques for Autonomous Systems</p>
           </div>
         </div>
@@ -243,17 +318,17 @@
       </div>
 
     </div>
-  </section><!-- End About Us Section -->
+  </section> -->
+  <!-- End About Us Section -->
 
 
-<!-- <section id = "team">
-    <section id="mentors">
-      
-    <div class="section-header">
-      <h3>Mentors</h3>          
-    </div>
-    <div class="container" data-aos="fade-up">
-      <div class="row">
+        
+  <section id = "team">      
+      <div class="section-header">
+          <h3>Mentors & Collaborators</h3>          
+      </div>
+      <div class="container" data-aos="fade-up">
+       <div class="row">
 
         <div class="col-lg-2 col-md-6">
           <div class="member" data-aos="fade-up" data-aos-delay="100">
@@ -345,18 +420,7 @@
           </div>
         </div>
 
-      </div>
-    </div>
-    </section>    
-  </section> -->
-        
-  <section id = "team">      
-    <section id = "collaborators">
-      <div class="section-header">
-          <h3>Collaborators</h3>          
-      </div>
-      <div class="container" data-aos="fade-up">
-       <div class="row">
+      
           <div class="col-lg-2 col-md-6">
             <div class="member" data-aos="fade-up" data-aos-delay="100">
               <img src="assets/img/People/Andres_Baquero.jpeg" class="circular--landscape" alt="">
@@ -497,59 +561,91 @@
         
        </div>
       </div>
-    </section>
   </section>
     
 
   </main><!-- End #main -->
 
-  <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="footer-top">
       <div class="container">
         <div class="row">
 
-          <!-- ======= Contact Section ======= -->
-          <!-- <section id="contact" class="section-bg"> -->
-      <!-- <div class="container" data-aos="fade-up"> -->
-        <div class="row contact-info">
-          <div class="col-md-4">
-            <div class="contact-address">
-              <i class="bi bi-geo-alt"></i>
-              <!-- <h3>Address</h3> -->
-              <address>Dept. of Artificial Intelligence,</address> 
-              <address>CET 021, Takshashila building, IIT Kharagpur</address>
-              <address>Kharagpur, India - 721302</address>
-            </div>
+          <div class="col-lg-3 col-md-6 footer-info">
+            <!-- <h3>PSALM Lab</h3> -->
+            <a href="index.html" class="logo"><img src="assets/img/lab_logo.png" alt="" class="img-fluid"></a>
+            <p>We are focused on research at the intersection of control theory and Artificial Intelligence (AI). The real world applications of AI require safety guarantee and explainability of the AI module. In addition, several modules such as sensing and perception, planning and action need to interact to complete the feedback loop. Our main focus is in planning and decision making but we also consider sensing and actuation along with the effects of communication channels whenever required.
+            </p>
           </div>
-          <div class="col-md-4">
-            <div class="contact-email">
-              <i class="bi bi-envelope"></i>
-              <!-- <h3>Email</h3> -->
-              <p><a href="mailto:pkmishra@ai.iitkgp.ac.in">pkmishra at ai.iitkgp.ac.in</a></p>
-            </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="people.html">People</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="research_projects.html">Projects</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="publications.html">Publications</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="resources.html">Facilities</a></li>
+            </ul>
           </div>
-        </div>
-      <!-- </div> -->
-          <!-- </section> -->
-          <!-- End Contact Section -->
 
           <div class="col-lg-3 col-md-6 footer-contact">
-           <div class="social-links">
-              <a href="https://scholar.google.co.in/citations?user=rXhwtr0AAAAJ&hl=en"><i class="twitter"><i class="bi bi-google"></i></a>
+            <h4>Contact Us</h4>
+            <p>
+              CET 021, Takshashila building <br>
+              IIT Kharagpur, Kharagpur, 721302<br>
+              India <br>
+              <strong>Phone:</strong> +91 3222-214-530<br>
+              <strong>Email:</strong> pkmishra@ai.iitkgp.ac.in<br>
+            </p>
+
+            <div class="social-links">
+              <a href="https://scholar.google.co.in/citations?user=rXhwtr0AAAAJ&hl=en"><i class="ai ai-google-scholar"></i></a>
               <a href="https://twitter.com/mishra_p_k" class="twitter"><i class="bi bi-twitter"></i></a>
               <a href="https://www.linkedin.com/in/mishra-p-k" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              <a href="https://dblp.org/pid/175/9540.html"><i class="ai ai-dblp"></i></a>
+              <a href="https://orcid.org/0000-0002-8507-8194"><i class="ai ai-orcid"></i></a>
+              <a href="https://www.webofscience.com/wos/author/record/I-4305-2012"><i class="ai ai-researcherid"></i></a>
+              <a href="https://www.researchgate.net/profile/Prabhat-Kumar-Mishra-3"><i class="ai ai-researchgate"></i></a>
+              <a href="https://www.scopus.com/authid/detail.uri?authorId=57188646050"><i class="ai ai-scopus"></i></a>
+              <a href="https://www.semanticscholar.org/author/Prabhat-Kumar-Mishra/16154017"><i class="ai ai-semantic-scholar"></i></a>
             </div>
+
           </div>
 
-          
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+          <h4>Schedule an appointment</h4>
+          <p>Please schedule an appointment by clicking the "book an appointment" tab. Meetings are generally in-person but if you cannot make it, a google meet link will also be generated after scheduling the appointment.</p>  
+          <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+          <script>
+            (function() {
+              var target = document.currentScript;
+              window.addEventListener('load', function() {
+                calendar.schedulingButton.load({
+                  url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ0epz8xfTzyWovOpt-muTLc2SW1WvbVujLhyW77m5AYosEyVQtdtLUROCkWUUWYCMuDOo7R1_mA?gv=true',
+                  color: '#33B679',
+                  label: 'Book an appointment',
+                  target,
+                });
+              });
+            })();
+          </script>
+            <!-- end Google Calendar Appointment Scheduling --> 
+            <!-- <h4>Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form> -->
+          </div>
 
         </div>
       </div>
     </div>
 
     <div class="container">
-      
+      <!-- <div class="copyright">
+        &copy; Copyright <strong>BizPage</strong>. All Rights Reserved
+      </div> -->
       <div class="credits">
         <!--
         All the links in the footer should remain intact.

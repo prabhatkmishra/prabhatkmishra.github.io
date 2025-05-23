@@ -9,7 +9,10 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
-  
+  <!-- Favicons -->
+  <!-- <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
@@ -20,19 +23,16 @@
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <!-- <link rel="stylesheet" href="assets/css/academicons.min.css"/> -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"> -->
+  <link rel="stylesheet" href="assets/academicons-1.7.0/css/academicons.min.css"/>
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
   <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
-  
-
 
   <!-- =======================================================
   * Template Name: BizPage
-  * Updated: Mar 10 2023 with Bootstrap v5.2.3
+  * Updated: Sep 18 2023 with Bootstrap v5.3.2
   * Template URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
@@ -47,18 +47,15 @@
 
       <div class="row justify-content-center align-items-center">
         <div class="col-xl-11 d-flex align-items-center justify-content-between">
-          <h1 class="logo"><a href="./index.html">Prabhat Kumar Mishra</a></h1>
-          <!-- Uncomment below if you prefer to use an image logo 
-          <a href="index.html" class="logo"><img src="assets/img/prabhat.jpg" alt="" class="img-fluid"></a> -->
+          <!-- <h1 class="logo"><a href="index.html">PSALM Lab</a></h1> -->
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <a href="index.html" class="logo"><img src="assets/img/lab_logo.png" alt="" class="img-fluid"></a>
 
           <nav id="navbar" class="navbar">
             <ul>
               <li><a class="nav-link scrollto active" href="./index.html">Home</a></li>
-              <li class="dropdown"><a class="nav-link scrollto "><span>PSALM Lab</span> <i class="bi bi-chevron-down"></i></a>
-                <ul>
-                  <li><a class="nav-link scrollto " href="./people.html">People</a></li>
-                  <li><a class="nav-link scrollto " href="./resources.html">Resources</a></li>
-                </ul>
+              <!-- <li class="dropdown"><a class="nav-link scrollto "><span>PSALM Lab</span> <i class="bi bi-chevron-down"></i></a> -->
+              <li><a class="nav-link scrollto active" href="./people.html">People</a></li>  
               <!-- <li><a class="nav-link scrollto " href="./research.html">Research</a></li> -->
               <li class="dropdown"><a class="nav-link scrollto "><span>Research</span> <i class="bi bi-chevron-down"></i></a>
                 <ul> 
@@ -66,6 +63,7 @@
                   <li><a class="nav-link scrollto " href="./publications.html">Publications</a></li>                                 
                 </ul>
                </li>
+               <li><a class="nav-link scrollto active" href="./resources.html">Facilities</a></li>
                <li class="dropdown"><a class="nav-link scrollto "><span>Training</span> <i class="bi bi-chevron-down"></i></a>
                 <ul>
                   <li><a class="nav-link scrollto " href="./robot_autonomy.html">AI/ML for Robot autonomy</a></li>
@@ -73,7 +71,7 @@
                   <li><a class="nav-link scrollto " href="./la.html">Linear Algebra for AI/ML</a></li>
                   <li><a class="nav-link scrollto " href="./projects.html">Student Projects</a></li>
                 </ul>   
-              <li><a class="nav-link scrollto active" href="./News.html">News</a></li>  
+              <!-- <li><a class="nav-link scrollto active" href="./News.html">News</a></li>   -->
               <li><a class="nav-link scrollto" href="#footer">Contact</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
@@ -89,247 +87,230 @@
   <section id="hero">
     <div class="hero-container">
       <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
         <ol id="hero-carousel-indicators" class="carousel-indicators"></ol>
+
         <div class="carousel-inner" role="listbox">
+
           <div class="carousel-item active" style="background-image: url(assets/img/hero-carousel/banner.jpeg)">
             <div class="carousel-container">
               <div class="container">
-                <div class="container">
-                <h2 class="animate__animated animate__fadeInDown">Predictive Stochastic Adaptive Learning Machines</h2>
-                <p class="animate__animated animate__fadeInUp">
-                    PSALM (Predictive Stochastic Adaptive Learning Machines) Lab at IIT Kharagpur is focused on research at the intersection of control theory and Artificial Intelligence (AI). The real world applications of AI require safety guarantee and explainability of the AI module. In addition, several modules such as sensing and perception, planning and action need to interact to complete the feedback loop. Our main focus is in planning and decision making but we also consider sensing and actuation along with the effects of communication channels whenever required. 
-                </p>
-                <a href="./people.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">People</a>
-                <a href="./resources.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">Resources</a>   
-                <!-- <h2 class="animate__animated animate__fadeInDown">Predictive Stochastic Adaptive Learning Machines</h2> -->
-                <!-- <a href="./index.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">Home</a> -->
-                <!-- <a href="./people.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">People</a> -->
-                <a href="./publications.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">Publications</a>
-                <!-- <a href="./training.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">Training</a> -->
-                <!-- <a href="#footer" class="btn-get-started scrollto animate__animated animate__fadeInUp">Contact</a> -->
+                <h2 class="animate__animated animate__fadeInDown">PSALM Lab</h2>
+                <p class="animate__animated animate__fadeInUp">Predictive Stochastic Adaptive Learning Machines</p>
+                <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Learn to control AI before AI learns to control!</a>
               </div>
             </div>
           </div>
-        </div> 
+
+          <div class="carousel-item" style="background-image: url(assets/img/Projects/IQuaP.webp)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">PSALM Lab</h2>
+                <p class="animate__animated animate__fadeInUp">Predictive Stochastic Adaptive Learning Machines</p>
+                <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Learn to control AI before AI learns to control!</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url(assets/img/Projects/safe_learning_lab.webp)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">PSALM Lab</h2>
+                <p class="animate__animated animate__fadeInUp">Predictive Stochastic Adaptive Learning Machines</p>
+                <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Learn to control AI before AI learns to control!</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="carousel-item" style="background-image: url(assets/img/Projects/lab_image4.png)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">PSALM Lab</h2>
+                <p class="animate__animated animate__fadeInUp">Predictive Stochastic Adaptive Learning Machines</p>
+                <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
+              </div>
+            </div>
+          </div> -->
+
+          <div class="carousel-item" style="background-image: url(assets/img/Projects/mobile_robots.png)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">PSALM Lab</h2>
+                <p class="animate__animated animate__fadeInUp">Predictive Stochastic Adaptive Learning Machines</p>
+                <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Learn to control AI before AI learns to control!</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
       </div>
     </div>
-  </section>
-  <!-- End Hero Section
-
+  </section><!-- End Hero Section -->
 
   <main id="main">
 
+    <!-- ======= Featured Services Section Section ======= -->
+    <section id="featured-services">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 box">
+            <i class="bi-person-badge"></i>
+            <h4 class="title"><a href="">Principle Investigator</a></h4>
+            <p class="description">Prabhat Kumar Mishra</p>
+            <p class="description">Assistant Professor</p>
+            <p class="description">Department of Aritificial Intelligence</p>
+            <p class="description">IIT Kharagpur</p>
+
+          </div>
+
+          <div class="col-lg-4 box box-bg">
+            <i class="bi bi-reception-4"></i>
+            <h4 class="title"><a href="">Training</a></h4>
+            <p class="description">AI/ML for Robot Autonomy</p>
+            <p class="description">AI for Cyber Physical Systems</p>
+            <p class="description">Linear Algebra for AI/ML</p>
+            <p class="description">Scientific Machine Learning</p>
+          </div>
+
+          <div class="col-lg-4 box">
+            <i class="bi bi-lightbulb-fill"></i>
+            <h4 class="title"><a href="">Research</a></h4>
+            <p class="description">Reinforcement learning</p> 
+            <p class="description">model predictive control</p>
+            <p class="description">Fine tuning of Generative AI models</p>
+            <p class="description">Autonomous navigation in rough terrain</p>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- End Featured Services Section -->
+    
+    <section id = "announcement" class="portfolio-details">
+    <!-- <section id="portfolio-details" class="portfolio-details"> -->
+    <div class="container">
+
+      <div class="row gy-4">
+
+        <div class="col-lg-6">
+          <div class="portfolio-details-slider swiper">
+            <div class="swiper-wrapper align-items-center">
+
+              <!-- <div class="swiper-slide"> -->
+                <img src="assets/img/Projects/rl_MPC_CPS.webp" alt="">
+              <!-- </div> -->
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-6">
+          <div class="portfolio-info">
+            <h3>News and Announcements</h3>
+            <ul>
+              <li> I am looking for motivated students in PSALM lab to work at the intersection of control and learning. We are working on both theoretical and empirical methods to develop new AI algorithms.</li> 
+              <li> We are upgrading our <a href="./resources.html">robotics and computational resources</a> through grants and industry collaborations.</li>    
+              <li> My course on Scientific Machine Learning has been approved by the senate, which will be offered in spring 2026. </li>
+              <li> I will be visiting <a href = "https://www.ccps.tu-darmstadt.de/ccps/index.en.jsp">Control and Cyber Physical Systems Laboratory</a> in June 2025.</li>
+              <li> I will talk about <a>"A tour of reinforcement learning from cart-pole to language models"</a> at NIT Patna.</li>
+              <li> Our paper <a href = "https://ieeexplore.ieee.org/abstract/document/10918914">Deep Model Predictive Control with stability guarantees is accepted for publication in IEEE Transactions on Automatic Control.</a></li>
+            </ul>
+          </div>
+          <div class="portfolio-description">
+            <h2>Thank you</h2>
+            <ol>	
+              <li> Thank you <a href = "https://www.linkedin.com/in/manas-kumar-bera-a361464a/">Dr. Manas Bera</a> for inviting me for an expert talk on "Model Predictive Control with data and distribution" in the online STC & FDP, ACEOCPS-2025 organized by Dept. of Electrical Engineering, NIT Rourkela.</li> 
+              <li> Thanks to <a href = "https://www.linkedin.com/in/amit-kumar-choudhary-808a33bb/">Dr. Amit Kumar Chowdhary</a> and the organizers of BITCON-2024 for inviting me as a keynote speaker to talk on "Safe interaction of an agent with the environment" at the 2024 IEEE Flagship International BIT Conference-2024 (<a href = "https://bitcon2024.bitsindri.ac.in/">BITCON-2024</a>) at BIT Sindri.</li> 
+              <li> Thanks to <a href = "https://www.iitkgp.ac.in/department/EE/faculty/ee-ddebnath">Prof. D. Debnath</a> and <a href="https://sites.google.com/site/rschakraborty/">Prof. R. S. Chakraborty</a> for inviting me as a Meta-reviewer and session chair for <a href = "http://ieeeindicon.org">IEEE INDICON 2024</a>. </li>   
+              <li> Thanks to <a href="https://www.iitkgp.ac.in/department/IP/faculty/ip-shreya">Prof. Shreya Matilal</a> for moderating the Symposium on Epistemological Innovation Reconnaissance of the Contours of Legal Research Methodology and to <a href="https://www.iitkgp.ac.in/department/IP/faculty/ip-arindam">Prof. Arindam Basu</a> for inviting me as a resource person to speak on "Computational legal research and artificial intelligence".    
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about">
+      <div class="container" data-aos="fade-up">
+
+        <!-- <header class="section-header">
+          <h3>About Us</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </header> -->
+
+        <div class="row about-cols">
+
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="about-col">
+              <div class="img">
+                <img src="assets/img/Projects/lab_image4.png" alt="" class="img-fluid">
+              </div>
+              <h2 class="title"><a href="#">PSALM Lab</a></h2>
+              <p>PSALM (Predictive Stochastic Adaptive Learning Machines) Lab at IIT Kharagpur is focused on research at the intersection of control theory and Artificial Intelligence (AI). The real world applications of AI require safety guarantee and explainability of the AI module. In addition, several modules such as sensing and perception, planning and action need to interact to complete the feedback loop. Our main focus is in planning and decision making but we also consider sensing and actuation along with the effects of communication channels whenever required.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="about-col">
+              <div class="img">
+                <img src="assets/img/Projects/deep_mpc.png" alt="" class="img-fluid">
+                <!-- <div class="icon"><i class="bi bi-brightness-high"></i></div> -->
+              </div>
+              <h2 class="title"><a href="#">Deep MPC</a></h2>
+              <p>
+                This paper presents a deep learning-based model predictive control algorithm for control affine nonlinear discrete-time systems with matched and bounded state-dependent uncertainties of unknown structure. Since the structure of uncertainties is not known, a deep neural network (DNN) is employed to approximate them. In order to avoid any unwanted behavior during the learning phase, a tube-based nonlinear model predictive controller is employed, which ensures satisfaction of constraints and input-to-state stability of the closed-loop states.</p>
+            
+            </div>
+          </div>
+
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="about-col">
+              <div class="img">
+                <img src="assets/img/Projects/Picture2.png" alt="" class="img-fluid">
+                <!-- <div class="icon"><i class="bi bi-calendar4-week"></i></div> -->
+              </div>
+              <h2 class="title"><a href="#">Algorithmic contributions</a></h2>
+              <ul>
+                <!-- <li> Modeling errors and environmental uncertainties are unavoidable.</li>
+                <li> We are interested in uncertainty quantification and mitigation with theoretical guarantees.</li> -->
+                <li> We have developed several computationally tractable classes of policies.</li>
+                <li> A moving horizon estimator developed by us exploits control-estimation duality.</li>
+                <li> Our current focus is on theoretical deevelopments based on physics informed neural networks, neural operators, polynomial chaos theory.</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+    
+    
+
+    
+
+    
+
+    
+
    
 
-    <!-- ======= PI Section ======= -->
- <section id="testimonials" class="section-bg">
-  <div class="container" data-aos="fade-up">
-
-    <div class="testimonials-carousel swiper" data-aos="fade-up" data-aos-delay="100">
-      <div class="swiper-wrapper">
-
-        <div class="swiper-slide">
-          <div class="testimonial-item">
-            <img src="assets/img/People/pkmishra.png" class="testimonial-img" alt="">
-            <h3><a href = "https://www.iitkgp.ac.in/department/AI/faculty/ai-pkmishra">Dr. Prabhat Kumar Mishra</a></h3>
-            <h4>Assistant Professor, IIT Kharagpur </h4>
-            <a id="cy-effective-orcid-url" class="underline" href="https://orcid.org/0000-0002-8507-8194" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align: top"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width: 1em; margin-inline-start: 0.5em" alt="ORCID iD icon"/> https://orcid.org/0000-0002-8507-8194</a>
-              <p align="justify">I am an Assistant Professor with the  Department of Artificial Intelligence (<a href = "https://ai.iitkgp.ac.in">DAI</a>), Indian Institute of Technology Kharagpur (<a href = "https://www.iitkgp.ac.in">IITKgp</a>), India, and currently working at the intersection of control and learning. I am developing algorithms for autonomous systems to make them smarter with the help of data and distribution. I use control theory to provide safety certificates, and to enhance explainability and trustworthiness of AI driven techniques.</p>
-              <p align="justify">I  did PhD from the Indian Institute of Technology Bombay (<a href = "https://www.iitb.ac.in">IITB</a>), India, on Stochastic Model Predictive Control (MPC) for Cyber Physical Systems. During my PhD, I received a Swiss Government Excellence Scholarship to study at the Ecole Polytechnique Federale de Lausanne (<a href= "https://www.epfl.ch/en/">EPFL</a>), Switzerland, for one year. 
-               I learnt Gaussian process regression and implemented stochastic MPC on a quadcopter during my stay at EPFL.</p> 
-              <p align="justify">Before joining IITKgp, I was a Postdoctoral Associate at the Massachusetts Institute of Technology (<a href="https://www.mit.edu">MIT</a>), USA, 
-               and working on polynomial chaos theory for advanced manufacturing applications. 
-               Prior to that, I was a Postdoctoral Research Asssociate at the University of Illinois at Urbana Champaign (<a href = "https://illinois.edu">UIUC</a>), USA, 
-               where we developed a couple of deep learning supported MPC algorithms and a constrained estimator for the agricultural robotics and aerospace applications. </p>
-            <!-- </p> -->
-            <div class="container">
-              <a href="https://www.iitkgp.ac.in/assets/bio_sketch/MjMwNjc=.pdf" class="btn-get-started scrollto animate__animated animate__fadeInUp">Resume</a>
-              <a href="https://www.iitkgp.ac.in/department/AI/faculty/ai-pkmishra" class="btn-get-started scrollto animate__animated animate__fadeInUp">Institute Profile</a>
-            
-            
-            </div>
-          </div>
-          
-        </div>
-        
-      </div>
-      
-      <div class="swiper-pagination"></div>
-    </div>
-
-  </div>
-</section><!-- End PI Section -->
     
-    <!-- ======= Organizations ======= -->
-    <header class="section-header">
-      <h3>Collaborating Organizations</h3>
-    </header>
+   
 
-
-    <section id="team">
-      <div class="container" data-aos="fade-up">
-        
-        <div class="row">
-
-          <div class="col-lg-4 col-md-4">
-            <div class="member" data-aos="fade-up" data-aos-delay="100">
-              <img src="assets/img/clients/mit.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-4">
-            <div class="member" data-aos="fade-up" data-aos-delay="200">
-              <img src="assets/img/clients/uiuc.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-4">
-            <div class="member" data-aos="fade-up" data-aos-delay="300">
-              <img src="assets/img/clients/epfl.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-4">
-            <div class="member" data-aos="fade-up" data-aos-delay="400">
-              <img src="assets/img/clients/IITB.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-4">
-            <div class="member" data-aos="fade-up" data-aos-delay="500">
-              <img src="assets/img/clients/Earthsense.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-4">
-            <div class="member" data-aos="fade-up" data-aos-delay="600">
-              <img src="assets/img/clients/Paderborn.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-4">
-            <div class="member" data-aos="fade-up" data-aos-delay="700">
-              <img src="assets/img/clients/Magdeburg.png" class="img-fluid" alt="">
-            </div>
-          </div>
-      
-        </div>
-      </div>
-      </section> 
-      <!-- end collaborating organizations -->
-    <!-- People -->
-    <section id = "people"></section>
-    <!-- ======= Team Section ======= -->
-    <section id="team">
-      <div class="container" data-aos="fade-up">
-        <div class="section-header">
-          <!-- <section id = "mentors"></section> -->
-          <h3>Acknowledgement</h3>
-        </div>
-          <!-- <p>I have been lucky to work with the following wonderful people.</p> -->
-          <p> I am grateful to people who invested their time and efforts in my training and well-being. I curiously follow the research that their groups are doing. 
-            I express my sincere thanks and consider myself lucky for the opprotunity that I got to work with them. </p>
-        
-
-        <div class="row">
-
-          <div class="col-lg-2 col-md-6">
-            <div class="member" data-aos="fade-up" data-aos-delay="100">
-              <img src="assets/img/People/Braatz.jpg" class="circular--landscape" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Richard D. Braatz</h4>
-                  <span>MIT, USA</span>
-                  <div class="social"> 
-                    <a href="https://www.linkedin.com/in/richardbraatz"><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-2 col-md-6">
-            <div class="member" data-aos="fade-up" data-aos-delay="200">
-              <img src="assets/img/People/Girish_Chowdhary.jpeg" class="circular--landscape" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Girish Chowdhary</h4>
-                  <span>UIUC, USA</span>
-                  <div class="social">                    
-                    <a href="https://www.linkedin.com/in/girishchowdhary"><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-2 col-md-6">
-            <div class="member" data-aos="fade-up" data-aos-delay="300">
-              <img src="assets/img/People/DebasishChatterjee.jpg" class="circular--landscape" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Debasish Chatterjee</h4>
-                  <span>IITB, India</span>
-                  <div class="social">                    
-                    <a href="https://www.sc.iitb.ac.in/~chatterjee/master/homepage"><i class="bi bi-link"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-2 col-md-6">
-            <div class="member" data-aos="fade-up" data-aos-delay="400">
-              <img src="assets/img/People/DanielQuevedo.jpg" class="circular--landscape" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Daniel Quevedo</h4>
-                  <span>QUT, Australia</span>
-                  <div class="social">                    
-                    <a href="https://www.linkedin.com/in/dquevedo"><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-2 col-md-6">
-            <div class="member" data-aos="fade-up" data-aos-delay="500">
-              <img src="assets/img/People/Prashant_Mehta.png" class="circular--landscape" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Prashant Mehta</h4>
-                  <span>UIUC, USA</span>
-                  <div class="social">                    
-                    <a href="https://www.linkedin.com/in/mehtapg/"><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-2 col-md-6">
-            <div class="member" data-aos="fade-up" data-aos-delay="600">
-              <img src="assets/img/People/ColinJones.jpg" class="circular--landscape" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Colin Jones</h4>
-                  <span>EPFL, Switzerland</span>
-                  <div class="social">                    
-                    <a href="https://www.linkedin.com/in/colin-jones-b04a663"><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-        
-        
-
-        
-      </div>
-    </section><!-- End Team Section -->
 
   </main><!-- End #main -->
 
@@ -339,29 +320,34 @@
       <div class="container">
         <div class="row">
 
-          <!-- ======= Contact Section ======= -->
-          <!-- <section id="contact" class="section-bg"> -->
-      <!-- <div class="container" data-aos="fade-up"> -->
-        
-        <div class="row contact-info">
-          <div class="col-md-4">
-            <div class="contact-address">
-              <i class="bi bi-geo-alt"></i>
-              <!-- <h3>Address</h3> -->
-              <address>Dept. of Artificial Intelligence,</address> 
-              <address>CET 021, Takshashila building, IIT Kharagpur</address>
-              <address>Kharagpur, India - 721302</address>
-            </div>
+          <div class="col-lg-3 col-md-6 footer-info">
+            <!-- <h3>PSALM Lab</h3> -->
+            <a href="index.html" class="logo"><img src="assets/img/lab_logo.png" alt="" class="img-fluid"></a>
+            <p>We are focused on research at the intersection of control theory and Artificial Intelligence (AI). The real world applications of AI require safety guarantee and explainability of the AI module. In addition, several modules such as sensing and perception, planning and action need to interact to complete the feedback loop. Our main focus is in planning and decision making but we also consider sensing and actuation along with the effects of communication channels whenever required.
+            </p>
           </div>
-          <div class="col-md-4">
-            <div class="contact-email">
-              <i class="bi bi-envelope"></i>
-              <!-- <h3>Email</h3> -->
-              <p><a href="mailto:pkmishra@ai.iitkgp.ac.in">pkmishra at ai.iitkgp.ac.in</a></p>
-              
-            </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="people.html">People</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="research_projects.html">Projects</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="publications.html">Publications</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="resources.html">Facilities</a></li>
+            </ul>
           </div>
-          <div class="col-md-4">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              CET 021, Takshashila building <br>
+              IIT Kharagpur, Kharagpur, 721302<br>
+              India <br>
+              <strong>Phone:</strong> +91 3222-214-530<br>
+              <strong>Email:</strong> pkmishra@ai.iitkgp.ac.in<br>
+            </p>
+
             <div class="social-links">
               <a href="https://scholar.google.co.in/citations?user=rXhwtr0AAAAJ&hl=en"><i class="ai ai-google-scholar"></i></a>
               <a href="https://twitter.com/mishra_p_k" class="twitter"><i class="bi bi-twitter"></i></a>
@@ -373,16 +359,13 @@
               <a href="https://www.scopus.com/authid/detail.uri?authorId=57188646050"><i class="ai ai-scopus"></i></a>
               <a href="https://www.semanticscholar.org/author/Prabhat-Kumar-Mishra/16154017"><i class="ai ai-semantic-scholar"></i></a>
             </div>
-        </div>
-      <!-- </div> -->
-          <!-- </section> -->
-          <!-- End Contact Section -->
 
-           
+          </div>
 
-
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+          <h4>Schedule an appointment</h4>
+          <p>Please schedule an appointment by clicking the "book an appointment" tab. Meetings are generally in-person but if you cannot make it, a google meet link will also be generated after scheduling the appointment.</p>  
+          <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
           <script>
             (function() {
               var target = document.currentScript;
@@ -397,20 +380,22 @@
             })();
           </script>
             <!-- end Google Calendar Appointment Scheduling --> 
+            <!-- <h4>Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form> -->
           </div>
-          <!-- Google Calendar Appointment Scheduling begin -->
-          
 
         </div>
       </div>
     </div>
 
-    
     <div class="container">
-       
+      <!-- <div class="copyright">
+        &copy; Copyright <strong>BizPage</strong>. All Rights Reserved
+      </div> -->
       <div class="credits">
-      
-        
         <!--
         All the links in the footer should remain intact.
         You can delete the links only if you purchased the pro version.
@@ -422,10 +407,11 @@
     </div>
   </footer><!-- End Footer -->
 
-  
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <!-- Uncomment below i you want to use a preloader -->
+  <!-- <div id="preloader"></div> -->
 
-  <!-- <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a> -->
-  
+  <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -441,48 +427,3 @@
 </body>
 
 </html>
-
-<!-- About Prabhat Kumar Mishra -->
-<!-- <section id="about">
-  <div class="container" data-aos="fade-up">
-    <h1>Awards</h1>
-
-    
-  
-    <p>2022: Excellent Reviewer, Journal of Guidance, Control, and Dynamics</p>
-    <p>2018: Outstanding reviewer award, Systems and Control Letters</p>
-    <p>2017: Swiss Government Excellence Scholarship</p>
-    <p>2017: Top reviewer for IIT Bombay (Chemical Engineering), Web of Science </p>
-    
-
-
-
-
-  <h1>Professional activities</h1>
-
-
-    <p>Member of the Humanitarian Technology Board (HTB) project proposals, IEEE</p>
-    <p>Member of the Chancellor's Innovation Fund Review Committee, MIT, USA</p>
-    <p>Member of the Search committee for research scientist, National Center for Supercomputing Applications, UIUC, USA</p>
-    <p>Invited reviewership</p> 
-      <ol>
-        <li>IEEE Transactions on Neural Networks and Learning Systems
-        <li>Automatica
-        <li>IEEE Transactions on Automatic Control
-        <li>Systems & Control Letters
-        <li>International Journal of Robust and Nonlinear Control
-        <li>Journal of Process Control
-        <li>IEEE Transactions on Nuclear Science
-        <li>IET Control Theory & Applications
-        <li>IEEE Control Systems Letters
-        <li>Conference on Decision and Control
-        <li>IFAC World Congress
-        <li>Indian Control Conference
-        <li>IEEE Conference on Control Technology and Applications
-        <li>American Control Conference, European Control Conference
-        <li>IFAC Symposium on Nonlinear Control Systems
-      </ol>
- 
-  
-</section> -->
-<!-- end About  -->
